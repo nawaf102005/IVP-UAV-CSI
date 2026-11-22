@@ -1,0 +1,175 @@
+[
+  {
+    "scenario": "main",
+    "source": "revision",
+    "method": "C-IVP",
+    "base": "No-report",
+    "n": 1024,
+    "difference": 8.865930311689521,
+    "low": 8.040849432713285,
+    "high": 9.691011190665757,
+    "relative_percent": 9.04134536058963,
+    "relative_interval": [
+      8.200290924803378,
+      9.903871141118396
+    ]
+  },
+  {
+    "scenario": "main",
+    "source": "revision",
+    "method": "C-IVP",
+    "base": "A-stop",
+    "n": 1024,
+    "difference": 7.115462275503695,
+    "low": 6.316601649196228,
+    "high": 7.914322901811163,
+    "relative_percent": 7.128984189281946,
+    "relative_interval": [
+      6.343351462928039,
+      7.951036586486238
+    ]
+  },
+  {
+    "scenario": "main",
+    "source": "revision",
+    "method": "C-IVP",
+    "base": "Sensitivity-3pt",
+    "n": 1024,
+    "difference": 1.54625901900792,
+    "low": 1.0830801315973997,
+    "high": 2.00943790641844,
+    "relative_percent": 1.4673239169600085
+  },
+  {
+    "scenario": "main",
+    "source": "revision",
+    "method": "C-IVP",
+    "base": "GH-KG",
+    "n": 1024,
+    "difference": 0.04488683026875954,
+    "low": -0.18802650554753328,
+    "high": 0.27780016608505237,
+    "relative_percent": 0.041997054813777634
+  },
+  {
+    "scenario": "fixed-count",
+    "source": "revision",
+    "method": "C-IVP-1",
+    "base": "A-fixed-1",
+    "n": 1024,
+    "difference": 2.7671543748932406,
+    "low": 2.1394362944726573,
+    "high": 3.394872455313824,
+    "relative_percent": 2.8226839209361954
+  },
+  {
+    "scenario": "fixed-count",
+    "source": "revision",
+    "method": "C-IVP-1",
+    "base": "D-fixed-1",
+    "n": 1024,
+    "difference": 2.7671543748932406,
+    "low": 2.1394362944726573,
+    "high": 3.394872455313824,
+    "relative_percent": 2.8226839209361954
+  },
+  {
+    "scenario": "fixed-count",
+    "source": "revision",
+    "method": "C-IVP-1",
+    "base": "Random-fixed-1",
+    "n": 1024,
+    "difference": 2.2917501388302473,
+    "low": 1.7202474532173049,
+    "high": 2.8632528244431894,
+    "relative_percent": 2.326457541578829
+  },
+  {
+    "scenario": "fixed-count",
+    "source": "revision",
+    "method": "C-IVP-2",
+    "base": "A-fixed-2",
+    "n": 1024,
+    "difference": 4.80263074039356,
+    "low": 4.076023206232545,
+    "high": 5.529238274554576,
+    "relative_percent": 4.787048042355632
+  },
+  {
+    "scenario": "fixed-count",
+    "source": "revision",
+    "method": "C-IVP-2",
+    "base": "D-fixed-2",
+    "n": 1024,
+    "difference": 4.80263074039356,
+    "low": 4.076023206232545,
+    "high": 5.529238274554576,
+    "relative_percent": 4.787048042355632
+  },
+  {
+    "scenario": "fixed-count",
+    "source": "revision",
+    "method": "C-IVP-2",
+    "base": "Random-fixed-2",
+    "n": 1024,
+    "difference": 6.319497512624714,
+    "low": 5.528224198349761,
+    "high": 7.110770826899667,
+    "relative_percent": 6.395692523672848
+  },
+  {
+    "scenario": "two-step",
+    "source": "revision",
+    "method": "Two-step",
+    "base": "C-IVP",
+    "n": 128,
+    "difference": 2.2778960799143073,
+    "low": 0.6922479513146433,
+    "high": 3.8635442085139715,
+    "relative_percent": 2.2011483667160494
+  },
+  {
+    "scenario": "two-step",
+    "source": "revision",
+    "method": "Two-step",
+    "base": "A-stop",
+    "n": 128,
+    "difference": 8.741720445490524,
+    "low": 6.201746440121063,
+    "high": 11.281694450859984,
+    "relative_percent": 9.009956951353931
+  },
+  {
+    "scenario": "two-step",
+    "source": "revision",
+    "method": "Two-step",
+    "base": "GH-KG",
+    "n": 128,
+    "difference": 1.582256977486223,
+    "low": 0.3046587257897255,
+    "high": 2.8598552291827204,
+    "relative_percent": 1.5187380151842573
+  },
+  {
+    "scenario": "chance_joint",
+    "source": "chance_joint",
+    "method": "Validated-frontier",
+    "base": "C-IVP",
+    "n": 128,
+    "difference": 6.47713187980878,
+    "low": 3.9523135151415736,
+    "high": 9.001950244475985,
+    "relative_percent": 5.953127759061402
+  },
+  {
+    "scenario": "chance_joint",
+    "source": "chance_joint",
+    "method": "IVP+frontier",
+    "base": "Validated-frontier",
+    "n": 128,
+    "difference": 1.9315520771481607,
+    "low": 0.6648361525445308,
+    "high": 3.1982680017517904,
+    "relative_percent": 1.675541169553691
+  }
+]

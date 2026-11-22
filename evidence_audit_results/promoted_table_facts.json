@@ -1,0 +1,106 @@
+{
+  "all_checks_passed": true,
+  "facts": {
+    "default_C-IVP": {
+      "n": 1024,
+      "service": 106.92578709290785,
+      "outages": 19,
+      "reports": 1.146484375
+    },
+    "default_A-stop": {
+      "n": 1024,
+      "service": 99.81032481740414,
+      "outages": 22,
+      "reports": 0.501953125
+    },
+    "default_GH-KG": {
+      "n": 1024,
+      "service": 106.88090026263909,
+      "outages": 19,
+      "reports": 1.13671875
+    },
+    "default_No-report": {
+      "n": 1024,
+      "service": 98.05985678121833,
+      "outages": 17,
+      "reports": 0.0
+    },
+    "pilot_16": {
+      "n": 256,
+      "service": 108.41490801815343,
+      "outages": 2,
+      "reports": 0.71875,
+      "wall_ms": 17.070986546873446
+    },
+    "pilot_64": {
+      "n": 256,
+      "service": 108.90152702572833,
+      "outages": 2,
+      "reports": 0.72265625,
+      "wall_ms": 16.33721600390792
+    },
+    "Frozen-Safe": {
+      "n": 256,
+      "service": 233.31906785453128,
+      "outages": 56,
+      "reports": 2.65234375
+    },
+    "Predictive-IVP": {
+      "n": 256,
+      "service": 350.7969541305009,
+      "outages": 15,
+      "reports": 0.9453125
+    },
+    "Endpoint-Safe": {
+      "n": 256,
+      "service": 243.8325885870674,
+      "outages": 0,
+      "reports": 0.9453125
+    },
+    "Endpoint-NR": {
+      "n": 256,
+      "service": 243.98365865660503,
+      "outages": 0,
+      "reports": 0.0
+    },
+    "frozen_Certificate-NR": {
+      "n": 128,
+      "service": 96.87741931112839,
+      "outages": 4,
+      "reports": 0.0
+    },
+    "frozen_Certificate-IVP": {
+      "n": 128,
+      "service": 108.80216487794635,
+      "outages": 3,
+      "reports": 1.1953125
+    },
+    "frozen_Frontier-NR": {
+      "n": 128,
+      "service": 115.27929675775513,
+      "outages": 2,
+      "reports": 0.0
+    },
+    "frozen_Frontier-IVP": {
+      "n": 128,
+      "service": 117.21084883490329,
+      "outages": 0,
+      "reports": 1.1953125
+    },
+    "Certificate-IVP_gain": {
+      "mean": 11.924745566817958,
+      "ci": [
+        9.268787318680928,
+        14.580703814954987
+      ]
+    },
+    "Frontier-IVP_gain": {
+      "mean": 1.9315520771481607,
+      "ci": [
+        0.6648361525445308,
+        3.1982680017517904
+      ]
+    }
+  },
+  "scope": "Existing raw records only. No new performance experiments or pooled cohorts."
+}

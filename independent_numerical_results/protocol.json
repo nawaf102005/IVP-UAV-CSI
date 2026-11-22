@@ -1,0 +1,116 @@
+{
+  "study": "Independent stratified scalar-value audit",
+  "frames_per_case": 64,
+  "cases": [
+    {
+      "name": "UL-heavy",
+      "seed_start": 94000000,
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 1e-08,
+        "gain_tol_kbit": 0.002
+      }
+    },
+    {
+      "name": "Balanced",
+      "seed_start": 95000000,
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.5,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 18000.0,
+        "dl_bits": 18000.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 0.2,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.2,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 1e-08,
+        "gain_tol_kbit": 0.002
+      }
+    },
+    {
+      "name": "DL-heavy",
+      "seed_start": 96000000,
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.2,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 1800.0,
+        "dl_bits": 30000.0,
+        "ul_power_w": 1.0,
+        "dl_power_w": 0.2,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.2,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 1e-08,
+        "gain_tol_kbit": 0.002
+      }
+    }
+  ],
+  "catalogue": "All desired and strongest interfering coordinates in UL and DL, 4N=16 candidates",
+  "reference": "Existing convex minimization and Brent roots with endpoint tolerance 1e-8 on [-6,6]",
+  "methods": [
+    "CDF25",
+    "KG17",
+    "Adaptive-GK"
+  ],
+  "adaptive": {
+    "epsabs": 0.0001,
+    "epsrel": 1e-07,
+    "limit": 500,
+    "fixed_points": [
+      -4,
+      -2,
+      0,
+      2,
+      4
+    ]
+  },
+  "timing": "Serial single-thread, warmed and randomized method order; descriptive mixed-implementation timings only, no algorithmic speed claim",
+  "sample_units": "192 independent states in three disjoint fresh 64-state blocks; candidate values within a state are dependent",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+}

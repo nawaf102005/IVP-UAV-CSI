@@ -1,0 +1,18 @@
+{
+  "25": {
+    "states": 32,
+    "candidates": 256,
+    "mean_abs_q_gap": 0.04494932901478904,
+    "max_abs_q_gap": 0.6851103994132046,
+    "action_agreement": 32,
+    "reference": "97-point midpoint sensitivity reference, not exact expected frontier value"
+  },
+  "49": {
+    "states": 32,
+    "candidates": 256,
+    "mean_abs_q_gap": 0.02815431060755269,
+    "max_abs_q_gap": 0.41157071775839427,
+    "action_agreement": 32,
+    "reference": "97-point midpoint sensitivity reference, not exact expected frontier value"
+  }
+}

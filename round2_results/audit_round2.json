@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "vector_records.jsonl": 512,
+    "calibration_records.jsonl": 3072,
+    "fresh_calibration_records.jsonl": 2560,
+    "kg_timing_records.jsonl": 512,
+    "reservation_records.jsonl": 1536
+  },
+  "decisions_checked": 8192,
+  "errors": [],
+  "static_score_noise_events_checked": 2476,
+  "active_static_score_noise_events": 2033
+}

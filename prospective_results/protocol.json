@@ -1,0 +1,128 @@
+{
+  "study": "Prospective fixed-geometry large-scale shadow aging and reduced planning fidelity",
+  "config": {
+    "n": 4,
+    "frame_s": 0.02,
+    "bandwidth_hz": 1000000.0,
+    "ul_fraction": 0.8,
+    "probe_s": 0.00075,
+    "max_probes": 4,
+    "ul_bits": 30000.0,
+    "dl_bits": 1800.0,
+    "ul_power_w": 0.2,
+    "dl_power_w": 1.0,
+    "noise_figure_db": 7.0,
+    "shadow_db": 3.0,
+    "measurement_db": 1.0,
+    "reciprocity": 0.9,
+    "spacing_m": 200.0,
+    "altitude_m": 120.0,
+    "kappa": 4.0,
+    "pathloss_exponent": 2.7,
+    "excess_loss_db": 15.0,
+    "outage": 0.05,
+    "z_limit": 6.0,
+    "endpoint_tol": 2e-05,
+    "gain_tol_kbit": 0.002
+  },
+  "speeds_m_s": [
+    10,
+    20,
+    30
+  ],
+  "decorrelation_m": 10,
+  "frame_s": 0.02,
+  "horizon": 40,
+  "refresh_every": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "incremental_cost_s": [
+    0.0,
+    0.00172
+  ],
+  "independent_tracks": 128,
+  "track_seed_start": 141000000,
+  "geometry": "Per-trajectory fixed path-loss mean, stationary covariance and pairing. New payloads at each frame uniform 0.85 to 1.15 times nominal, paired across all methods and speeds.",
+  "law": "Stationary multivariate Gaussian AR(1); rho=exp(-v*T/10). Report x_t at start, serve true x_(t+1). Posterior persists across every frame and refresh; no execution labels used to learn. No small-scale fading or flight data.",
+  "rules": "IVP and sensitivity make a one-step certificate-based report/stop decision on refresh frames only. Fixed-IVP always buys exactly one report, using the highest one-step certificate Q even if stopping would be preferred. Nonrefresh frames buy zero reports. Both terminal allocators are evaluated from the same history. No-report skips acquisition.",
+  "cost": "Primary: whole report airtime and one or two hypothetical per-round costs on the refresh frame; no acquisition charge on other frames. Common terminal work excluded. 1.72 ms is the historical certificate ratio used as an assumed charge.",
+  "primary_family": 192,
+  "primary_contrasts": "IVP, sensitivity, fixed-IVP each minus no-report and IVP minus sensitivity for every speed, K, cost and terminal. Simultaneous Bonferroni paired t, two sided, 95%, paired mean kbit/frame per independent 40-frame trajectory; outages descriptive.",
+  "reuse_frame_columns": [
+    "speed",
+    "frame",
+    "K",
+    "cost_ms",
+    "rule",
+    "requested_index",
+    "observation",
+    "reserve_ms",
+    "cert_service",
+    "cert_outage",
+    "cert_mask",
+    "cert_mode",
+    "front_service",
+    "front_outage",
+    "front_mask",
+    "front_mode"
+  ],
+  "host": {
+    "dev_frames": 64,
+    "dev_seed_start": 152000000,
+    "test_seed_start": 151000000,
+    "test_tracks": 64,
+    "horizon": 40,
+    "v_m_s": 20,
+    "K": [
+      1,
+      10
+    ],
+    "methods": [
+      "No-report",
+      "IVP"
+    ],
+    "round_charge_ms": 1.72,
+    "terminal": "4096-draw validated frontier for all methods",
+    "common_reserve": "1.25 times development 95th percentile of one warmed no-report terminal, rounded upward to 0.1 ms. Held fixed for all held-out frames. Evaluation is serial, one BLAS thread, warm-up excluded. Time includes acquisition, posterior update and final allocation, excludes scenario generation and execution scoring.",
+    "deadline": "Every frame pays common terminal reserve. Refresh frames additionally pay c per report/stop round and radio airtime if accepted. A late decision earns zero service. On an overrun a newly acquired observation is discarded before posterior carry-forward. No-report pays the common reserve and is penalized identically.",
+    "family": "Two direct IVP-minus-no-report trajectory contrasts, one per K, simultaneous 95%. No tuning of reservations on test data."
+  },
+  "profile": {
+    "test_seed_start": 161000000,
+    "paired_frames": 128,
+    "draws": [
+      256,
+      1024,
+      4096
+    ],
+    "nodes": [
+      9,
+      25,
+      49
+    ],
+    "cap": 4,
+    "terminal_draws": 4096,
+    "v_m_s": 20,
+    "cells": "Full 3x3 planning grid. Same planning stream, each stopping step conditional on observed reports; final stream independent and shared across methods. Acceptance threshold recalculated for planning draw count.",
+    "timing": "Two runs per frame and cell on one pinned CPU, randomized within frame. (1) Radio-only service and warmed whole-decision wall time. (2) All methods including no-report receive a 1.0-ms total computation reservation on the 20-ms frame. Subtract this before planning; active overruns earn zero. Time stops after final validation, before truth-based service scoring.",
+    "statistic": "18 simultaneous Bonferroni 95% paired contrasts vs identical no-report terminal (9 each at 0 and 1 ms). A 1-ms operating point requires empirical whole-decision p95 at most 1 ms AND a positive charged-service lower limit.",
+    "warmup_seeds": [
+      160999991,
+      160999992,
+      160999993
+    ]
+  },
+  "streams": "NumPy independent SeedSequence namespaces for AR shocks, report errors and per-frame payloads. The same standardized input streams pair the speed scenarios. Frame-specific final-gate seeds are disjoint from all geometry and observation seeds.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "software": {
+    "persistence_campaign.py": "e8fea54c55ac6df3fde8542658a143a96b1fcf7591b19f4d4741bb7c746f146a",
+    "frontier_tradeoff_campaign.py": "42f57a45e48e6dde72c7fdb61d802a564a0e2ba85c47f00d648adc1b128d6c3a",
+    "aligned_frontier.py": "b94b08838d51883f47b34d5e350330f75ef851534d3b75a7ff24f91f9fbd9138",
+    "fast_kernel.cpp": "fa34045393ab2cda4446f87b712c3e154e32dea8191fec88f07d3996deac5e87",
+    "model.py": "2de3b4f1fabd2004b84e6c2f217157308738e50f8159f3ba467b61e9fcf9dbcd"
+  }
+}

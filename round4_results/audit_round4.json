@@ -1,0 +1,140 @@
+{
+  "pilot_decisions_checked": 1536,
+  "pilot_observation_sets_checked": 512,
+  "motion_decisions_checked": 1024,
+  "calibration": {
+    "munich-static": {
+      "lifted_indices": [
+        8,
+        9,
+        18,
+        22
+      ],
+      "q_original": 370.0998462514633,
+      "q_regularized": 5.890273457617274,
+      "original_max_score": 3470.2841336009697,
+      "regularized_max_score": 15.071252498593083,
+      "minimum_sd_db": 0.004342944819032518,
+      "lifted_means": [
+        -46.051701859880936,
+        -46.051701859880936,
+        -46.051701859880936,
+        -46.051701859880936
+      ]
+    },
+    "munich-motion": {
+      "lifted_indices": [
+        8,
+        9,
+        18,
+        22
+      ],
+      "q_original": 5.818574652456929,
+      "q_regularized": 5.818574652456929,
+      "original_max_score": 3194.4110919494333,
+      "regularized_max_score": 13.8731511016418,
+      "minimum_sd_db": 0.004342944819032518,
+      "lifted_means": [
+        -46.051701859880936,
+        -46.051701859880936,
+        -46.051701859880936,
+        -46.051701859880936
+      ]
+    }
+  },
+  "paired_rows": {
+    "munich-static-IVP": {
+      "identical": 0,
+      "frames": 256,
+      "selected_reuse_includes_lifted": 0,
+      "regularized_modes": {
+        "reuse": 235,
+        "OMA": 21
+      },
+      "original_modes": {
+        "empty": 199,
+        "OMA": 21,
+        "reuse": 36
+      }
+    },
+    "munich-static-NR": {
+      "identical": 0,
+      "frames": 256,
+      "selected_reuse_includes_lifted": 0,
+      "regularized_modes": {
+        "reuse": 256
+      },
+      "original_modes": {
+        "empty": 256
+      }
+    },
+    "munich-motion-IVP": {
+      "identical": 256,
+      "frames": 256,
+      "selected_reuse_includes_lifted": 0,
+      "regularized_modes": {
+        "reuse": 211,
+        "OMA": 45
+      },
+      "original_modes": {
+        "reuse": 211,
+        "OMA": 45
+      }
+    },
+    "munich-motion-NR": {
+      "identical": 256,
+      "frames": 256,
+      "selected_reuse_includes_lifted": 0,
+      "regularized_modes": {
+        "reuse": 256
+      },
+      "original_modes": {
+        "reuse": 256
+      }
+    }
+  },
+  "exact_field_matches": {
+    "munich-static-IVP": {
+      "observations": 256,
+      "mode": 57,
+      "selected": 25,
+      "power": 25,
+      "airtime": 256,
+      "q": 0,
+      "completed_kbit": 27,
+      "outage": 253
+    },
+    "munich-static-NR": {
+      "observations": 256,
+      "mode": 0,
+      "selected": 0,
+      "power": 0,
+      "airtime": 256,
+      "q": 0,
+      "completed_kbit": 2,
+      "outage": 254
+    },
+    "munich-motion-IVP": {
+      "observations": 256,
+      "mode": 256,
+      "selected": 256,
+      "power": 256,
+      "airtime": 256,
+      "q": 256,
+      "completed_kbit": 256,
+      "outage": 256
+    },
+    "munich-motion-NR": {
+      "observations": 256,
+      "mode": 256,
+      "selected": 256,
+      "power": 256,
+      "airtime": 256,
+      "q": 256,
+      "completed_kbit": 256,
+      "outage": 256
+    }
+  },
+  "errors": [],
+  "scope": "Regenerates physical observations and terminal actions; verifies stored forecast selection/stop consistency. Full candidate forecasts are reproduced by the experiment runner."
+}

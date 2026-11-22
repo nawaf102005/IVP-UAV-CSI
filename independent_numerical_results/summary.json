@@ -1,0 +1,142 @@
+{
+  "All": {
+    "CDF25": {
+      "states": 192,
+      "candidate_values": 3072,
+      "mean_abs_error": 0.0007586890441100974,
+      "p95_abs_error": 0.00413892512901981,
+      "max_abs_error": 0.022154230803863584,
+      "mean_signed_error": -0.0007586890441080527,
+      "decision_agreement": 192,
+      "mean_ms": 0.37331297557023174,
+      "integration_warnings": 0
+    },
+    "KG17": {
+      "states": 192,
+      "candidate_values": 3072,
+      "mean_abs_error": 0.14107575589828142,
+      "p95_abs_error": 0.727370897718724,
+      "max_abs_error": 4.757588062239421,
+      "mean_signed_error": 0.011006831869306436,
+      "decision_agreement": 167,
+      "mean_ms": 0.9668259654951328,
+      "integration_warnings": 0
+    },
+    "Adaptive-GK": {
+      "states": 192,
+      "candidate_values": 3072,
+      "mean_abs_error": 1.9238163941309727e-05,
+      "p95_abs_error": 3.354516010602986e-05,
+      "max_abs_error": 0.011993316745574134,
+      "mean_signed_error": 4.8866507238454204e-06,
+      "decision_agreement": 192,
+      "mean_ms": 23.56526758691313,
+      "integration_warnings": 0
+    }
+  },
+  "UL-heavy": {
+    "CDF25": {
+      "states": 64,
+      "candidate_values": 1024,
+      "mean_abs_error": 0.0009233362498426156,
+      "p95_abs_error": 0.005593179293824584,
+      "max_abs_error": 0.019047653100827233,
+      "mean_signed_error": -0.0009233362498407283,
+      "decision_agreement": 64,
+      "mean_ms": 0.3665801611409947,
+      "integration_warnings": 0
+    },
+    "KG17": {
+      "states": 64,
+      "candidate_values": 1024,
+      "mean_abs_error": 0.17339290947303537,
+      "p95_abs_error": 0.9718616938458722,
+      "max_abs_error": 4.181368965408481,
+      "mean_signed_error": 0.014322669200983643,
+      "decision_agreement": 57,
+      "mean_ms": 0.94010509374165,
+      "integration_warnings": 0
+    },
+    "Adaptive-GK": {
+      "states": 64,
+      "candidate_values": 1024,
+      "mean_abs_error": 2.3573218002365115e-05,
+      "p95_abs_error": 3.9645447894542666e-05,
+      "max_abs_error": 0.011993316745574134,
+      "mean_signed_error": 9.396791531696147e-06,
+      "decision_agreement": 64,
+      "mean_ms": 24.565389183584863,
+      "integration_warnings": 0
+    }
+  },
+  "Balanced": {
+    "CDF25": {
+      "states": 64,
+      "candidate_values": 1024,
+      "mean_abs_error": 0.0007416436628901735,
+      "p95_abs_error": 0.00441286615613589,
+      "max_abs_error": 0.022154230803863584,
+      "mean_signed_error": -0.0007416436628879253,
+      "decision_agreement": 64,
+      "mean_ms": 0.3686756669658564,
+      "integration_warnings": 0
+    },
+    "KG17": {
+      "states": 64,
+      "candidate_values": 1024,
+      "mean_abs_error": 0.13585272422697292,
+      "p95_abs_error": 0.6647343971520681,
+      "max_abs_error": 4.757588062239421,
+      "mean_signed_error": -0.012528303055125714,
+      "decision_agreement": 58,
+      "mean_ms": 0.998153378916733,
+      "integration_warnings": 0
+    },
+    "Adaptive-GK": {
+      "states": 64,
+      "candidate_values": 1024,
+      "mean_abs_error": 8.481913115074291e-06,
+      "p95_abs_error": 3.128621526329307e-05,
+      "max_abs_error": 0.0007785038009444634,
+      "mean_signed_error": 2.469590881112871e-06,
+      "decision_agreement": 64,
+      "mean_ms": 22.568577706045367,
+      "integration_warnings": 0
+    }
+  },
+  "DL-heavy": {
+    "CDF25": {
+      "states": 64,
+      "candidate_values": 1024,
+      "mean_abs_error": 0.0006110872195975031,
+      "p95_abs_error": 0.0030919640552561126,
+      "max_abs_error": 0.021327968983428036,
+      "mean_signed_error": -0.0006110872195955047,
+      "decision_agreement": 64,
+      "mean_ms": 0.3846830986038441,
+      "integration_warnings": 0
+    },
+    "KG17": {
+      "states": 64,
+      "candidate_values": 1024,
+      "mean_abs_error": 0.11398163399483599,
+      "p95_abs_error": 0.4875450204701584,
+      "max_abs_error": 3.8464935034242274,
+      "mean_signed_error": 0.03122612946206138,
+      "decision_agreement": 52,
+      "mean_ms": 0.9622194238270154,
+      "integration_warnings": 0
+    },
+    "Adaptive-GK": {
+      "states": 64,
+      "candidate_values": 1024,
+      "mean_abs_error": 2.5659360706489776e-05,
+      "p95_abs_error": 3.2773462996971064e-05,
+      "max_abs_error": 0.00605298994628356,
+      "mean_signed_error": 2.7935697587272434e-06,
+      "decision_agreement": 64,
+      "mean_ms": 23.56183587110916,
+      "integration_warnings": 0
+    }
+  }
+}

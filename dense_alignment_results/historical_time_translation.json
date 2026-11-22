@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "source": "round5_results/scale_records.jsonl",
+      "label": "Dedicated 256-frame N4 benchmark",
+      "frames": 256,
+      "mean_decision_ms": 3.6317855234384577,
+      "mean_rounds": 2.11328125,
+      "ratio_of_means_ms": 1.7185528539745751,
+      "mean_frame_ratio_ms": 1.7181423729177228,
+      "nr_mean_ms": 0.09967275781108675,
+      "incremental_ratio_ms": 1.6713879260639686
+    },
+    {
+      "source": "revision_results/timing_records.jsonl",
+      "label": "Earlier 128-frame N4 benchmark",
+      "frames": 128,
+      "mean_decision_ms": 3.6332304609434374,
+      "mean_rounds": 2.125,
+      "ratio_of_means_ms": 1.7097555110322058,
+      "mean_frame_ratio_ms": 1.6987231166695573
+    }
+  ],
+  "scope": "Historical serial whole-decision times, frozen channels and old implementation. Ratios include terminal scheduling and are not measured c for the new frontier-aware planner. Subtracting NR is a descriptive incremental estimate, not a matched component timing or WCET guarantee."
+}

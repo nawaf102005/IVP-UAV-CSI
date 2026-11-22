@@ -1,0 +1,10 @@
+{
+  "records_replayed": 23040,
+  "development_decisions": 384,
+  "test_seed_count": 128,
+  "development_seed_count": 128,
+  "duplicate_records": 0,
+  "mismatches": 0,
+  "host_times_remeasured": false,
+  "forecast_values_recomputed": false
+}

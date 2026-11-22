@@ -1,0 +1,28 @@
+{
+  "Certificate-IVP": {
+    "mean_decision_ms": 3.754618937506393,
+    "mean_rounds": 1.8125,
+    "ratio_of_means_ms": 2.0715138965552513,
+    "p95_decision_ms": 7.902648000026602,
+    "incremental_ratio_ms": 2.001086206883758
+  },
+  "Frontier-aware-IVP": {
+    "mean_decision_ms": 153.4488106562506,
+    "mean_rounds": 1.375,
+    "ratio_of_means_ms": 111.59913502272771,
+    "p95_decision_ms": 991.3481869000177,
+    "incremental_ratio_ms": 108.14646847725065
+  },
+  "No-report-C": {
+    "mean_decision_ms": 0.12765018752958213,
+    "mean_rounds": 1.0,
+    "ratio_of_means_ms": 0.12765018752958213,
+    "p95_decision_ms": 0.18788985004221104
+  },
+  "No-report-F": {
+    "mean_decision_ms": 4.747416500030965,
+    "mean_rounds": 1.0,
+    "ratio_of_means_ms": 4.747416500030965,
+    "p95_decision_ms": 5.614761150013692
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "count": 1024,
+  "mean_gap": 0.0014652603758063265,
+  "max_gap": 0.285741167677628,
+  "smallest_gap": -3.507456085571903e-07,
+  "negative_beyond_reference_tolerance": 0,
+  "elapsed_s": 11.260300387999905
+}

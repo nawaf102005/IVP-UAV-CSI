@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "grid": 13,
+      "candidate_reports": 1024,
+      "nonempty": 22377,
+      "missed": 2,
+      "missed_percent": 0.008937748581132414,
+      "reports_with_miss": 2,
+      "mean_gap": 0.0028453303351829023,
+      "max_gap": 0.31220429730163346,
+      "min_gap": -3.507456085571903e-07,
+      "mean_omission_gap": 0.000572290167716899,
+      "max_omission_gap": 0.3043150963186463,
+      "excess_above_002": 0,
+      "mean_cpu_ms": 0.224269302734381
+    },
+    {
+      "grid": 25,
+      "candidate_reports": 1024,
+      "nonempty": 22377,
+      "missed": 1,
+      "missed_percent": 0.004468874290566207,
+      "reports_with_miss": 1,
+      "mean_gap": 0.0014652603758063265,
+      "max_gap": 0.285741167677628,
+      "min_gap": -3.507456085571903e-07,
+      "mean_omission_gap": 0.000275107456468221,
+      "max_omission_gap": 0.2817100354234583,
+      "excess_above_002": 0,
+      "mean_cpu_ms": 0.257589386718716
+    },
+    {
+      "grid": 49,
+      "candidate_reports": 1024,
+      "nonempty": 22377,
+      "missed": 0,
+      "missed_percent": 0.0,
+      "reports_with_miss": 0,
+      "mean_gap": 0.0006034710186114817,
+      "max_gap": 0.011285797966806399,
+      "min_gap": -2.3720298685248054e-06,
+      "mean_omission_gap": 0.0,
+      "max_omission_gap": 0.0,
+      "excess_above_002": 0,
+      "mean_cpu_ms": 0.3198031445312559
+    },
+    {
+      "grid": 97,
+      "candidate_reports": 1024,
+      "nonempty": 22377,
+      "missed": 0,
+      "missed_percent": 0.0,
+      "reports_with_miss": 0,
+      "mean_gap": 0.00029279557459119254,
+      "max_gap": 0.00535169841116101,
+      "min_gap": -2.3720298685248054e-06,
+      "mean_omission_gap": 0.0,
+      "max_omission_gap": 0.0,
+      "excess_above_002": 0,
+      "mean_cpu_ms": 0.5273039726562833
+    }
+  ],
+  "elapsed_s": 18.21996432900005,
+  "note": "Nonempty action intervals are reference-detected within [-6,6]; redundant singleton OMA intervals are omitted. Miss count is not a fraction of optimal decisions. CPU costs are diagnostic, not isolated online latency."
+}

@@ -1,0 +1,62 @@
+{
+  "study": "Post-review joint aging and report-cost diagnostic",
+  "config": {
+    "n": 4,
+    "frame_s": 0.02,
+    "bandwidth_hz": 1000000.0,
+    "ul_fraction": 0.8,
+    "probe_s": 0.00075,
+    "max_probes": 4,
+    "ul_bits": 30000.0,
+    "dl_bits": 1800.0,
+    "ul_power_w": 0.2,
+    "dl_power_w": 1.0,
+    "noise_figure_db": 7.0,
+    "shadow_db": 3.0,
+    "measurement_db": 1.0,
+    "reciprocity": 0.9,
+    "spacing_m": 200.0,
+    "altitude_m": 120.0,
+    "kappa": 4.0,
+    "pathloss_exponent": 2.7,
+    "excess_loss_db": 15.0,
+    "outage": 0.05,
+    "z_limit": 6.0,
+    "endpoint_tol": 2e-05,
+    "gain_tol_kbit": 0.002
+  },
+  "rhos": [
+    0.4,
+    0.6,
+    0.75,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "report_fractions": [
+    0.0,
+    0.01,
+    0.025,
+    0.05,
+    0.1
+  ],
+  "methods": [
+    "Predictive-IVP",
+    "Predictive-Margin",
+    "Predictive-NR"
+  ],
+  "test_frames": 128,
+  "test_seed": 92000000,
+  "development_frames": 128,
+  "development_seed": 91000000,
+  "development_condition": {
+    "rho": 0.75,
+    "report_fraction": 0.0375
+  },
+  "reservations": "Twice development p95 of per-round average wall time, rounded upward to 0.05 ms; one reservation per method, fixed over rho and tau/T.",
+  "timing": "One warmed thread, serial randomized method order; generation and execution checks excluded from online wall time.",
+  "statistics": "Bonferroni simultaneous 95% paired t intervals across both IVP contrasts at all 30 cells and both cost modes (120 contrasts). Wilson risk intervals are pointwise; no reliability certification from finite counts.",
+  "scope": "Known Gaussian initial/execution log gains at fixed N=4, UL-heavy load. rho is not converted to speed or a Doppler coherence time. Same sufficient-certificate allocator, not the stronger validated frontier. Endpoint execution, not time-integrated packets.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+}

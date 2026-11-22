@@ -1,0 +1,6 @@
+{
+  "count": 128,
+  "seed_start": 190000,
+  "elapsed_s": 3.0991561490000095,
+  "note": "A terminal-allocator ablation with the same finite power family and held-out validation as Validated-frontier; not the certified IVP theorem."
+}

@@ -1,0 +1,1269 @@
+{
+  "suite": "paper",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "workers": 2,
+  "grid_size": 25,
+  "grid_range": [
+    -6,
+    6
+  ],
+  "boundary_refinements": 8,
+  "development_seeds": "92001--92500 numerical/development; excluded from evaluation",
+  "snapshots": 14464,
+  "settings": [
+    {
+      "name": "main",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 1024,
+      "seed_start": 110000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "GH-KG",
+        "No-report",
+        "OMA",
+        "Nominal",
+        "Perfect-CSI"
+      ]
+    },
+    {
+      "name": "fixed-count",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 1024,
+      "seed_start": 110000,
+      "methods": [
+        [
+          "C-IVP-1",
+          "C-IVP",
+          {
+            "fixed_count": 1
+          }
+        ],
+        [
+          "A-fixed-1",
+          "A-fixed",
+          {
+            "fixed_count": 1
+          }
+        ],
+        [
+          "D-fixed-1",
+          "D-fixed",
+          {
+            "fixed_count": 1
+          }
+        ],
+        [
+          "Random-fixed-1",
+          "Random-fixed",
+          {
+            "fixed_count": 1
+          }
+        ],
+        [
+          "C-IVP-2",
+          "C-IVP",
+          {
+            "fixed_count": 2
+          }
+        ],
+        [
+          "A-fixed-2",
+          "A-fixed",
+          {
+            "fixed_count": 2
+          }
+        ],
+        [
+          "D-fixed-2",
+          "D-fixed",
+          {
+            "fixed_count": 2
+          }
+        ],
+        [
+          "Random-fixed-2",
+          "Random-fixed",
+          {
+            "fixed_count": 2
+          }
+        ]
+      ]
+    },
+    {
+      "name": "delta-0.01",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.01,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 120000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA"
+      ]
+    },
+    {
+      "name": "cal-delta-0.01",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.01,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 256,
+      "seed_start": 125000,
+      "methods": [
+        "No-report"
+      ]
+    },
+    {
+      "name": "delta-0.025",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.025,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 120000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA"
+      ]
+    },
+    {
+      "name": "cal-delta-0.025",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.025,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 256,
+      "seed_start": 125000,
+      "methods": [
+        "No-report"
+      ]
+    },
+    {
+      "name": "delta-0.05",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 120000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA"
+      ]
+    },
+    {
+      "name": "cal-delta-0.05",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 256,
+      "seed_start": 125000,
+      "methods": [
+        "No-report"
+      ]
+    },
+    {
+      "name": "delta-0.1",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.1,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 120000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA"
+      ]
+    },
+    {
+      "name": "cal-delta-0.1",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.1,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 256,
+      "seed_start": 125000,
+      "methods": [
+        "No-report"
+      ]
+    },
+    {
+      "name": "delta-0.2",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.2,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 120000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA"
+      ]
+    },
+    {
+      "name": "cal-delta-0.2",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.2,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 256,
+      "seed_start": 125000,
+      "methods": [
+        "No-report"
+      ]
+    },
+    {
+      "name": "delta-0.4",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.4,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 120000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA"
+      ]
+    },
+    {
+      "name": "cal-delta-0.4",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.4,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 256,
+      "seed_start": 125000,
+      "methods": [
+        "No-report"
+      ]
+    },
+    {
+      "name": "cap-0",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 0,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 130000,
+      "methods": [
+        "C-IVP",
+        "A-stop"
+      ]
+    },
+    {
+      "name": "cap-1",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 1,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 130000,
+      "methods": [
+        "C-IVP",
+        "A-stop"
+      ]
+    },
+    {
+      "name": "cap-2",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 2,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 130000,
+      "methods": [
+        "C-IVP",
+        "A-stop"
+      ]
+    },
+    {
+      "name": "cap-4",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 130000,
+      "methods": [
+        "C-IVP",
+        "A-stop"
+      ]
+    },
+    {
+      "name": "cap-8",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 8,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 130000,
+      "methods": [
+        "C-IVP",
+        "A-stop"
+      ]
+    },
+    {
+      "name": "sigma_mismatch",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 140000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA",
+        [
+          "Oracle-cov",
+          "C-IVP",
+          {
+            "oracle_cov": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "reciprocity_mismatch",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 140000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA",
+        [
+          "Oracle-cov",
+          "C-IVP",
+          {
+            "oracle_cov": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "structure_mismatch",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 140000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA",
+        [
+          "Oracle-cov",
+          "C-IVP",
+          {
+            "oracle_cov": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "mean_mismatch",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 140000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA",
+        [
+          "Oracle-cov",
+          "C-IVP",
+          {
+            "oracle_cov": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "blockage",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 1024,
+      "seed_start": 150000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA",
+        [
+          "Guarded-IVP",
+          "C-IVP",
+          {
+            "guard_db": 8.0
+          }
+        ],
+        [
+          "Guarded-no-report",
+          "No-report",
+          {
+            "guard_db": 8.0
+          }
+        ]
+      ]
+    },
+    {
+      "name": "UL-both",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 155000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA"
+      ]
+    },
+    {
+      "name": "balanced",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.5,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 18000.0,
+        "dl_bits": 18000.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 0.2,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.2,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 155000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA"
+      ]
+    },
+    {
+      "name": "DL-heavy",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.2,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 1800.0,
+        "dl_bits": 30000.0,
+        "ul_power_w": 1.0,
+        "dl_power_w": 0.2,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.2,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 512,
+      "seed_start": 155000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        "OMA"
+      ]
+    },
+    {
+      "name": "N-6",
+      "config": {
+        "n": 6,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 256,
+      "seed_start": 160000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        [
+          "C-IVP-C16",
+          "C-IVP",
+          {
+            "catalogue_limit": 16
+          }
+        ],
+        [
+          "C-IVP-C32",
+          "C-IVP",
+          {
+            "catalogue_limit": 32
+          }
+        ]
+      ]
+    },
+    {
+      "name": "N-8",
+      "config": {
+        "n": 8,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 128,
+      "seed_start": 170000,
+      "methods": [
+        "C-IVP",
+        "A-stop",
+        "D-stop",
+        "Sensitivity-3pt",
+        "No-report",
+        [
+          "C-IVP-C16",
+          "C-IVP",
+          {
+            "catalogue_limit": 16
+          }
+        ],
+        [
+          "C-IVP-C32",
+          "C-IVP",
+          {
+            "catalogue_limit": 32
+          }
+        ],
+        [
+          "C-IVP-C64",
+          "C-IVP",
+          {
+            "catalogue_limit": 64
+          }
+        ]
+      ]
+    },
+    {
+      "name": "two-step",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 2,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 128,
+      "seed_start": 180000,
+      "methods": [
+        "C-IVP",
+        "Two-step",
+        "GH-KG",
+        "A-stop",
+        "Sensitivity-3pt"
+      ]
+    },
+    {
+      "name": "reference",
+      "config": {
+        "n": 4,
+        "frame_s": 0.02,
+        "bandwidth_hz": 1000000.0,
+        "ul_fraction": 0.8,
+        "probe_s": 0.00075,
+        "max_probes": 4,
+        "ul_bits": 30000.0,
+        "dl_bits": 1800.0,
+        "ul_power_w": 0.2,
+        "dl_power_w": 1.0,
+        "noise_figure_db": 7.0,
+        "shadow_db": 3.0,
+        "measurement_db": 1.0,
+        "reciprocity": 0.9,
+        "spacing_m": 200.0,
+        "altitude_m": 120.0,
+        "kappa": 4.0,
+        "pathloss_exponent": 2.7,
+        "excess_loss_db": 15.0,
+        "outage": 0.05,
+        "z_limit": 6.0,
+        "endpoint_tol": 2e-05,
+        "gain_tol_kbit": 0.002
+      },
+      "count": 128,
+      "seed_start": 110000,
+      "methods": [
+        "C-IVP",
+        "IVP-reference"
+      ]
+    }
+  ],
+  "timing_note": "Loaded batch times are diagnostic only. Dedicated sequential benchmark supplies online timing results.",
+  "elapsed_s": 91.0141295630001
+}

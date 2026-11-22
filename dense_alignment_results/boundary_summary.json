@@ -1,0 +1,30 @@
+{
+  "Predictive-IVP": {
+    "first_crossing": 0.03654498805015771,
+    "status": "crossed",
+    "bootstrap95": [
+      0.031837846984038,
+      0.041038832098713944
+    ],
+    "supported_prefix": 0.025,
+    "first_crossing_ms": 0.7308997610031542,
+    "supported_ms": 0.5,
+    "all_crossings": [
+      0.03654498805015771
+    ]
+  },
+  "Predictive-Margin": {
+    "first_crossing": 0.030524837592574714,
+    "status": "crossed",
+    "bootstrap95": [
+      0.027031998641641474,
+      0.035574570974592455
+    ],
+    "supported_prefix": 0.02,
+    "first_crossing_ms": 0.6104967518514943,
+    "supported_ms": 0.4,
+    "all_crossings": [
+      0.030524837592574714
+    ]
+  }
+}

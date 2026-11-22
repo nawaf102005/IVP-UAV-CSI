@@ -1,0 +1,770 @@
+[
+  {
+    "seed": 99000000,
+    "method": "Certificate-IVP",
+    "wall_s": 0.004901565999944069,
+    "probes": 1
+  },
+  {
+    "seed": 99000000,
+    "method": "No-report-C",
+    "wall_s": 7.480299996132089e-05,
+    "probes": 0
+  },
+  {
+    "seed": 99000000,
+    "method": "No-report-F",
+    "wall_s": 0.005090730000119947,
+    "probes": 0
+  },
+  {
+    "seed": 99000000,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.010262933999911183,
+    "probes": 0
+  },
+  {
+    "seed": 99000001,
+    "method": "No-report-C",
+    "wall_s": 0.00017119700009970984,
+    "probes": 0
+  },
+  {
+    "seed": 99000001,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.01184417400008897,
+    "probes": 0
+  },
+  {
+    "seed": 99000001,
+    "method": "No-report-F",
+    "wall_s": 0.005701830000134578,
+    "probes": 0
+  },
+  {
+    "seed": 99000001,
+    "method": "Certificate-IVP",
+    "wall_s": 0.00022599100020670448,
+    "probes": 0
+  },
+  {
+    "seed": 99000002,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009333196000170574,
+    "probes": 0
+  },
+  {
+    "seed": 99000002,
+    "method": "Certificate-IVP",
+    "wall_s": 0.006450166000149693,
+    "probes": 1
+  },
+  {
+    "seed": 99000002,
+    "method": "No-report-F",
+    "wall_s": 0.004920703999914622,
+    "probes": 0
+  },
+  {
+    "seed": 99000002,
+    "method": "No-report-C",
+    "wall_s": 0.00012760200002048805,
+    "probes": 0
+  },
+  {
+    "seed": 99000003,
+    "method": "No-report-C",
+    "wall_s": 8.28249999358377e-05,
+    "probes": 0
+  },
+  {
+    "seed": 99000003,
+    "method": "No-report-F",
+    "wall_s": 0.0049374499999430554,
+    "probes": 0
+  },
+  {
+    "seed": 99000003,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009776912999996057,
+    "probes": 0
+  },
+  {
+    "seed": 99000003,
+    "method": "Certificate-IVP",
+    "wall_s": 0.005419054999947548,
+    "probes": 2
+  },
+  {
+    "seed": 99000004,
+    "method": "No-report-F",
+    "wall_s": 0.005332224000085262,
+    "probes": 0
+  },
+  {
+    "seed": 99000004,
+    "method": "Certificate-IVP",
+    "wall_s": 0.0034555499998987216,
+    "probes": 0
+  },
+  {
+    "seed": 99000004,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.010297232000084477,
+    "probes": 0
+  },
+  {
+    "seed": 99000004,
+    "method": "No-report-C",
+    "wall_s": 0.00013934999992670782,
+    "probes": 0
+  },
+  {
+    "seed": 99000005,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.25339065299999675,
+    "probes": 0
+  },
+  {
+    "seed": 99000005,
+    "method": "No-report-F",
+    "wall_s": 0.0057616999999936525,
+    "probes": 0
+  },
+  {
+    "seed": 99000005,
+    "method": "No-report-C",
+    "wall_s": 0.0001396800000748044,
+    "probes": 0
+  },
+  {
+    "seed": 99000005,
+    "method": "Certificate-IVP",
+    "wall_s": 0.005252634000044054,
+    "probes": 1
+  },
+  {
+    "seed": 99000006,
+    "method": "Certificate-IVP",
+    "wall_s": 0.002492740999969101,
+    "probes": 0
+  },
+  {
+    "seed": 99000006,
+    "method": "No-report-F",
+    "wall_s": 0.004845703000000867,
+    "probes": 0
+  },
+  {
+    "seed": 99000006,
+    "method": "No-report-C",
+    "wall_s": 0.00012811299984605284,
+    "probes": 0
+  },
+  {
+    "seed": 99000006,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.008668873999795323,
+    "probes": 0
+  },
+  {
+    "seed": 99000007,
+    "method": "No-report-C",
+    "wall_s": 0.0001198800000565825,
+    "probes": 0
+  },
+  {
+    "seed": 99000007,
+    "method": "No-report-F",
+    "wall_s": 0.004153309999992416,
+    "probes": 0
+  },
+  {
+    "seed": 99000007,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009170341000071858,
+    "probes": 0
+  },
+  {
+    "seed": 99000007,
+    "method": "Certificate-IVP",
+    "wall_s": 0.004976269000053435,
+    "probes": 1
+  },
+  {
+    "seed": 99000008,
+    "method": "No-report-F",
+    "wall_s": 0.004179419000138296,
+    "probes": 0
+  },
+  {
+    "seed": 99000008,
+    "method": "Certificate-IVP",
+    "wall_s": 0.002534153999931732,
+    "probes": 1
+  },
+  {
+    "seed": 99000008,
+    "method": "No-report-C",
+    "wall_s": 5.8428000102139777e-05,
+    "probes": 0
+  },
+  {
+    "seed": 99000008,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009345522999865352,
+    "probes": 0
+  },
+  {
+    "seed": 99000009,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.20076688300014212,
+    "probes": 2
+  },
+  {
+    "seed": 99000009,
+    "method": "No-report-F",
+    "wall_s": 0.0045410440000068775,
+    "probes": 0
+  },
+  {
+    "seed": 99000009,
+    "method": "No-report-C",
+    "wall_s": 0.00012760200002048805,
+    "probes": 0
+  },
+  {
+    "seed": 99000009,
+    "method": "Certificate-IVP",
+    "wall_s": 0.0025512800000342395,
+    "probes": 0
+  },
+  {
+    "seed": 99000010,
+    "method": "Certificate-IVP",
+    "wall_s": 0.0025501779998649,
+    "probes": 1
+  },
+  {
+    "seed": 99000010,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.008718359000113196,
+    "probes": 0
+  },
+  {
+    "seed": 99000010,
+    "method": "No-report-C",
+    "wall_s": 0.00011660600011964561,
+    "probes": 0
+  },
+  {
+    "seed": 99000010,
+    "method": "No-report-F",
+    "wall_s": 0.004661525000074107,
+    "probes": 0
+  },
+  {
+    "seed": 99000011,
+    "method": "No-report-C",
+    "wall_s": 0.00019222000014451623,
+    "probes": 0
+  },
+  {
+    "seed": 99000011,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.30714221099992756,
+    "probes": 0
+  },
+  {
+    "seed": 99000011,
+    "method": "No-report-F",
+    "wall_s": 0.004948475999981383,
+    "probes": 0
+  },
+  {
+    "seed": 99000011,
+    "method": "Certificate-IVP",
+    "wall_s": 0.0024597710000762163,
+    "probes": 0
+  },
+  {
+    "seed": 99000012,
+    "method": "Certificate-IVP",
+    "wall_s": 0.002612330999909318,
+    "probes": 0
+  },
+  {
+    "seed": 99000012,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.008969947999958094,
+    "probes": 0
+  },
+  {
+    "seed": 99000012,
+    "method": "No-report-C",
+    "wall_s": 0.00013606500010610034,
+    "probes": 0
+  },
+  {
+    "seed": 99000012,
+    "method": "No-report-F",
+    "wall_s": 0.004613172000063059,
+    "probes": 0
+  },
+  {
+    "seed": 99000013,
+    "method": "No-report-C",
+    "wall_s": 0.00011998000013591081,
+    "probes": 0
+  },
+  {
+    "seed": 99000013,
+    "method": "Certificate-IVP",
+    "wall_s": 0.008596506999992926,
+    "probes": 3
+  },
+  {
+    "seed": 99000013,
+    "method": "No-report-F",
+    "wall_s": 0.005494838000004165,
+    "probes": 0
+  },
+  {
+    "seed": 99000013,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 1.6257017850000466,
+    "probes": 3
+  },
+  {
+    "seed": 99000014,
+    "method": "No-report-F",
+    "wall_s": 0.004297396000083609,
+    "probes": 0
+  },
+  {
+    "seed": 99000014,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.008997920999945563,
+    "probes": 0
+  },
+  {
+    "seed": 99000014,
+    "method": "No-report-C",
+    "wall_s": 0.00017957000000023982,
+    "probes": 0
+  },
+  {
+    "seed": 99000014,
+    "method": "Certificate-IVP",
+    "wall_s": 0.00013408199993136805,
+    "probes": 0
+  },
+  {
+    "seed": 99000015,
+    "method": "No-report-F",
+    "wall_s": 0.0043872319999991305,
+    "probes": 0
+  },
+  {
+    "seed": 99000015,
+    "method": "Certificate-IVP",
+    "wall_s": 0.00013295999997353647,
+    "probes": 0
+  },
+  {
+    "seed": 99000015,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.00916280799992819,
+    "probes": 0
+  },
+  {
+    "seed": 99000015,
+    "method": "No-report-C",
+    "wall_s": 0.00012050200007251988,
+    "probes": 0
+  },
+  {
+    "seed": 99000016,
+    "method": "No-report-C",
+    "wall_s": 7.780700002513186e-05,
+    "probes": 0
+  },
+  {
+    "seed": 99000016,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009110018999990643,
+    "probes": 0
+  },
+  {
+    "seed": 99000016,
+    "method": "No-report-F",
+    "wall_s": 0.004319801000065127,
+    "probes": 0
+  },
+  {
+    "seed": 99000016,
+    "method": "Certificate-IVP",
+    "wall_s": 0.0029137049998553266,
+    "probes": 1
+  },
+  {
+    "seed": 99000017,
+    "method": "No-report-C",
+    "wall_s": 8.160199990925321e-05,
+    "probes": 0
+  },
+  {
+    "seed": 99000017,
+    "method": "Certificate-IVP",
+    "wall_s": 0.0021342019999792683,
+    "probes": 0
+  },
+  {
+    "seed": 99000017,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009288326999921992,
+    "probes": 0
+  },
+  {
+    "seed": 99000017,
+    "method": "No-report-F",
+    "wall_s": 0.004471228000056726,
+    "probes": 0
+  },
+  {
+    "seed": 99000018,
+    "method": "No-report-F",
+    "wall_s": 0.004339179999988119,
+    "probes": 0
+  },
+  {
+    "seed": 99000018,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.008712271000149485,
+    "probes": 0
+  },
+  {
+    "seed": 99000018,
+    "method": "No-report-C",
+    "wall_s": 0.00018434699995850679,
+    "probes": 0
+  },
+  {
+    "seed": 99000018,
+    "method": "Certificate-IVP",
+    "wall_s": 0.003997053999910349,
+    "probes": 1
+  },
+  {
+    "seed": 99000019,
+    "method": "No-report-F",
+    "wall_s": 0.005183560000205034,
+    "probes": 0
+  },
+  {
+    "seed": 99000019,
+    "method": "No-report-C",
+    "wall_s": 0.00012103199992452573,
+    "probes": 0
+  },
+  {
+    "seed": 99000019,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.8259831039999881,
+    "probes": 3
+  },
+  {
+    "seed": 99000019,
+    "method": "Certificate-IVP",
+    "wall_s": 0.007714179000004151,
+    "probes": 2
+  },
+  {
+    "seed": 99000020,
+    "method": "Certificate-IVP",
+    "wall_s": 0.002395675000116171,
+    "probes": 0
+  },
+  {
+    "seed": 99000020,
+    "method": "No-report-C",
+    "wall_s": 6.423600007110508e-05,
+    "probes": 0
+  },
+  {
+    "seed": 99000020,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009358431999999084,
+    "probes": 0
+  },
+  {
+    "seed": 99000020,
+    "method": "No-report-F",
+    "wall_s": 0.004497568000033425,
+    "probes": 0
+  },
+  {
+    "seed": 99000021,
+    "method": "Certificate-IVP",
+    "wall_s": 0.0027939340000102675,
+    "probes": 0
+  },
+  {
+    "seed": 99000021,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009089159000041036,
+    "probes": 0
+  },
+  {
+    "seed": 99000021,
+    "method": "No-report-C",
+    "wall_s": 0.00012228400009917095,
+    "probes": 0
+  },
+  {
+    "seed": 99000021,
+    "method": "No-report-F",
+    "wall_s": 0.00431013599995822,
+    "probes": 0
+  },
+  {
+    "seed": 99000022,
+    "method": "Certificate-IVP",
+    "wall_s": 0.0020439350000742706,
+    "probes": 0
+  },
+  {
+    "seed": 99000022,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.27212595700007114,
+    "probes": 0
+  },
+  {
+    "seed": 99000022,
+    "method": "No-report-C",
+    "wall_s": 0.00013973000000078173,
+    "probes": 0
+  },
+  {
+    "seed": 99000022,
+    "method": "No-report-F",
+    "wall_s": 0.004675765999991199,
+    "probes": 0
+  },
+  {
+    "seed": 99000023,
+    "method": "No-report-C",
+    "wall_s": 0.00016311600006702065,
+    "probes": 0
+  },
+  {
+    "seed": 99000023,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.00918686499994692,
+    "probes": 0
+  },
+  {
+    "seed": 99000023,
+    "method": "Certificate-IVP",
+    "wall_s": 0.0025479850000920123,
+    "probes": 1
+  },
+  {
+    "seed": 99000023,
+    "method": "No-report-F",
+    "wall_s": 0.0043284140001560445,
+    "probes": 0
+  },
+  {
+    "seed": 99000024,
+    "method": "No-report-C",
+    "wall_s": 0.00013367099995775789,
+    "probes": 0
+  },
+  {
+    "seed": 99000024,
+    "method": "Certificate-IVP",
+    "wall_s": 6.598899994969543e-05,
+    "probes": 0
+  },
+  {
+    "seed": 99000024,
+    "method": "No-report-F",
+    "wall_s": 0.004785990999835121,
+    "probes": 0
+  },
+  {
+    "seed": 99000024,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.008540971999991598,
+    "probes": 0
+  },
+  {
+    "seed": 99000025,
+    "method": "No-report-F",
+    "wall_s": 0.004378620000125011,
+    "probes": 0
+  },
+  {
+    "seed": 99000025,
+    "method": "Certificate-IVP",
+    "wall_s": 0.0024742430000515014,
+    "probes": 0
+  },
+  {
+    "seed": 99000025,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009098271999846475,
+    "probes": 0
+  },
+  {
+    "seed": 99000025,
+    "method": "No-report-C",
+    "wall_s": 0.00012398600006235938,
+    "probes": 0
+  },
+  {
+    "seed": 99000026,
+    "method": "No-report-C",
+    "wall_s": 7.695600015722448e-05,
+    "probes": 0
+  },
+  {
+    "seed": 99000026,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.008553161000008913,
+    "probes": 0
+  },
+  {
+    "seed": 99000026,
+    "method": "No-report-F",
+    "wall_s": 0.004520934000083798,
+    "probes": 0
+  },
+  {
+    "seed": 99000026,
+    "method": "Certificate-IVP",
+    "wall_s": 0.005477813999959835,
+    "probes": 1
+  },
+  {
+    "seed": 99000027,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 1.1934610660000544,
+    "probes": 4
+  },
+  {
+    "seed": 99000027,
+    "method": "No-report-C",
+    "wall_s": 0.00013681600012205308,
+    "probes": 0
+  },
+  {
+    "seed": 99000027,
+    "method": "No-report-F",
+    "wall_s": 0.005543522999914785,
+    "probes": 0
+  },
+  {
+    "seed": 99000027,
+    "method": "Certificate-IVP",
+    "wall_s": 0.00768441300010636,
+    "probes": 2
+  },
+  {
+    "seed": 99000028,
+    "method": "Certificate-IVP",
+    "wall_s": 0.008132999000054042,
+    "probes": 2
+  },
+  {
+    "seed": 99000028,
+    "method": "No-report-F",
+    "wall_s": 0.005393817000140189,
+    "probes": 0
+  },
+  {
+    "seed": 99000028,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.008892651999985901,
+    "probes": 0
+  },
+  {
+    "seed": 99000028,
+    "method": "No-report-C",
+    "wall_s": 0.00012272499998289277,
+    "probes": 0
+  },
+  {
+    "seed": 99000029,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009264240999982576,
+    "probes": 0
+  },
+  {
+    "seed": 99000029,
+    "method": "Certificate-IVP",
+    "wall_s": 0.005304163000118933,
+    "probes": 2
+  },
+  {
+    "seed": 99000029,
+    "method": "No-report-F",
+    "wall_s": 0.004425589999982549,
+    "probes": 0
+  },
+  {
+    "seed": 99000029,
+    "method": "No-report-C",
+    "wall_s": 0.0003492650000680442,
+    "probes": 0
+  },
+  {
+    "seed": 99000030,
+    "method": "No-report-C",
+    "wall_s": 7.753699992463225e-05,
+    "probes": 0
+  },
+  {
+    "seed": 99000030,
+    "method": "No-report-F",
+    "wall_s": 0.0042081120000148076,
+    "probes": 0
+  },
+  {
+    "seed": 99000030,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.009158210999885341,
+    "probes": 0
+  },
+  {
+    "seed": 99000030,
+    "method": "Certificate-IVP",
+    "wall_s": 0.007373707000169816,
+    "probes": 3
+  },
+  {
+    "seed": 99000031,
+    "method": "No-report-C",
+    "wall_s": 7.527299999310344e-05,
+    "probes": 0
+  },
+  {
+    "seed": 99000031,
+    "method": "Frontier-aware-IVP",
+    "wall_s": 0.008989477000113766,
+    "probes": 0
+  },
+  {
+    "seed": 99000031,
+    "method": "No-report-F",
+    "wall_s": 0.00466833499990571,
+    "probes": 0
+  },
+  {
+    "seed": 99000031,
+    "method": "Certificate-IVP",
+    "wall_s": 0.002348573999825021,
+    "probes": 0
+  }
+]

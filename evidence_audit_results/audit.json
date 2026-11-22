@@ -1,0 +1,9 @@
+{
+  "states": 64,
+  "certificate_checkpoints": 384,
+  "frontier_checkpoints": 24,
+  "max_certificate_value_difference": 0.0,
+  "all_checks_passed": true,
+  "frozen_alignment_code_hashes_match": true,
+  "scope": "Independent Python spectral/eigensolve scheduler versus C++ positive-linear-solve scheduler across sizes, posterior histories and charged durations. Frontier outputs additionally checked against the Python reference. Not formal floating-point or physical-model verification."
+}

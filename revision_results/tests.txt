@@ -1,0 +1,19 @@
+test_augmented_radius_agrees_with_independent_lp (test_theory.TheoryTests.test_augmented_radius_agrees_with_independent_lp) ... ok
+test_closed_form_envelope (test_theory.TheoryTests.test_closed_form_envelope) ... ok
+test_covariance_is_psd_and_geometry_is_reciprocal (test_theory.TheoryTests.test_covariance_is_psd_and_geometry_is_reciprocal) ... ok
+test_innovation_integral_against_independent_grid (test_theory.TheoryTests.test_innovation_integral_against_independent_grid) ... ok
+test_interval_has_no_holes (test_theory.TheoryTests.test_interval_has_no_holes) ... ok
+test_log_spectral_function_is_convex (test_theory.TheoryTests.test_log_spectral_function_is_convex) ... ok
+test_posterior_matches_information_form (test_theory.TheoryTests.test_posterior_matches_information_form) ... ok
+test_conformal_event_implies_physical_delivery (test_revision.RevisionTests.test_conformal_event_implies_physical_delivery) ... ok
+test_fixed_count_is_exact_even_if_service_already_feasible (test_revision.RevisionTests.test_fixed_count_is_exact_even_if_service_already_feasible) ... ok
+test_guard_equivalent_to_desired_mean_shift (test_revision.RevisionTests.test_guard_equivalent_to_desired_mean_shift) ... ok
+test_inconsistent_report_bounds_reject (test_revision.RevisionTests.test_inconsistent_report_bounds_reject) ... ok
+test_inner_interval_value_is_a_lower_bound (test_revision.RevisionTests.test_inner_interval_value_is_a_lower_bound) ... ok
+test_positive_solve_matches_spectral_reference (test_revision.RevisionTests.test_positive_solve_matches_spectral_reference) ... ok
+test_reservation_equivalent_to_shorter_frame (test_revision.RevisionTests.test_reservation_equivalent_to_shorter_frame) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 3.286s
+
+OK

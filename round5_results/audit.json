@@ -1,0 +1,10 @@
+{
+  "decisions": 32512,
+  "counts": {
+    "scale": 4608,
+    "latency": 5376,
+    "mismatch": 22528
+  },
+  "errors": [],
+  "scope": "All final allocations, observations and outcomes including deadline penalties; full forecast recomputation belongs to runner."
+}

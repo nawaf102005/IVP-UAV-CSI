@@ -1,0 +1,28 @@
+{
+  "records": 112800,
+  "counts": {
+    "chance": 640,
+    "conformal": 3072,
+    "frontier": 128,
+    "hybrid": 128,
+    "latency": 10752,
+    "ray": 12288,
+    "revision": 77952,
+    "screening": 5120,
+    "timing": 2720
+  },
+  "history_equal": {
+    "main": 1024,
+    "UL-both": 512,
+    "balanced": 472,
+    "DL-heavy": 496
+  },
+  "value_audit": {
+    "count": 1024,
+    "mean_gap": 0.0014652603758063265,
+    "max_gap": 0.285741167677628,
+    "smallest_gap": -3.507456085571903e-07,
+    "negative_beyond_reference_tolerance": 0,
+    "elapsed_s": 11.260300387999905
+  }
+}

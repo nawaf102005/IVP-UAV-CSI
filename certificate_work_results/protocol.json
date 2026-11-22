@@ -1,0 +1,12 @@
+{
+  "states": 192,
+  "candidates_per_method": 3072,
+  "reuse": "Same fresh independent 192-state audit; no extra independent sample claim",
+  "metric": "One action/mode feasible() invocation, with both directions and early rejection; linear() calls and coefficient preparations separately counted",
+  "methods": [
+    "CDF25",
+    "KG17",
+    "Adaptive-GK"
+  ],
+  "scope": "Same C++ predicate across methods. Different action size and early exits have different arithmetic cost; no CPU-independent runtime guarantee."
+}

@@ -1,0 +1,42 @@
+{
+  "settings": [
+    {
+      "scenario": "canyon_low-static",
+      "q": 4.654088114026183,
+      "prior_risk": 0.04,
+      "report_risk": 0.01
+    },
+    {
+      "scenario": "canyon_low-motion",
+      "q": 4.119112409237534,
+      "prior_risk": 0.04,
+      "report_risk": 0.01
+    },
+    {
+      "scenario": "canyon_high-static",
+      "q": 3.664038763908301,
+      "prior_risk": 0.04,
+      "report_risk": 0.01
+    },
+    {
+      "scenario": "canyon_high-motion",
+      "q": 5.1742642099982845,
+      "prior_risk": 0.04,
+      "report_risk": 0.01
+    },
+    {
+      "scenario": "munich-static",
+      "q": 370.0998462514633,
+      "prior_risk": 0.04,
+      "report_risk": 0.01
+    },
+    {
+      "scenario": "munich-motion",
+      "q": 5.818574652456929,
+      "prior_risk": 0.04,
+      "report_risk": 0.01
+    }
+  ],
+  "guarantee": "Marginal over exchangeable static calibration/test frames and independent report noise; no Gaussian posterior assumption; reciprocity is exact in these ray scenes.",
+  "limitation": "Motion breaks static-frame exchangeability with execution; nondegradation of Gaussian certified utility is not claimed for the filtered action."
+}

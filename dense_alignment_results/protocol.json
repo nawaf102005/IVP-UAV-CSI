@@ -1,0 +1,102 @@
+{
+  "study": "Fresh dense cost and frontier-aware acquisition",
+  "frames": 512,
+  "seed_start": 97000000,
+  "config": {
+    "n": 4,
+    "frame_s": 0.02,
+    "bandwidth_hz": 1000000.0,
+    "ul_fraction": 0.8,
+    "probe_s": 0.00075,
+    "max_probes": 4,
+    "ul_bits": 30000.0,
+    "dl_bits": 1800.0,
+    "ul_power_w": 0.2,
+    "dl_power_w": 1.0,
+    "noise_figure_db": 7.0,
+    "shadow_db": 3.0,
+    "measurement_db": 1.0,
+    "reciprocity": 0.9,
+    "spacing_m": 200.0,
+    "altitude_m": 120.0,
+    "kappa": 4.0,
+    "pathloss_exponent": 2.7,
+    "excess_loss_db": 15.0,
+    "outage": 0.05,
+    "z_limit": 6.0,
+    "endpoint_tol": 2e-05,
+    "gain_tol_kbit": 0.002
+  },
+  "rho": 0.9607894391523232,
+  "dense_alphas": [
+    0.0,
+    0.005,
+    0.01,
+    0.015,
+    0.02,
+    0.025,
+    0.03,
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055,
+    0.06,
+    0.065,
+    0.07,
+    0.075,
+    0.08
+  ],
+  "frontier_alphas": [
+    0.0,
+    0.01,
+    0.02
+  ],
+  "simultaneous_contrasts": 60,
+  "confidence": "Bonferroni 95% paired t over 60 fresh-study contrasts, separate from previous 1194-contrast family",
+  "bootstrap": {
+    "samples": 2000,
+    "seed": 20261120,
+    "scope": "Pointwise paired-frame percentiles for first crossings; excludes interpolation error"
+  },
+  "frontier": {
+    "knobs": [
+      0.01,
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.8
+    ],
+    "power": "uniform per-direction scaling to first cap",
+    "oma": "fill directional time budget proportionally",
+    "forecast_samples": 4096,
+    "final_samples": 4096,
+    "forecast_knots": 49,
+    "forecast_rule": "Equal-normal-mass midpoint rule over [-6,6]; no interval/lower-value claim",
+    "planning_seed_offset": 5600000,
+    "final_seed_offset": 4200000,
+    "contract": "Final validation stream is not accessed until report selection has stopped; same candidate family and acceptance criterion in planning and final gate, separate random streams. No IVP nondegradation theorem asserted for sampled forecasts."
+  },
+  "numerical_audit": {
+    "states": 32,
+    "seeds": [
+      98000000,
+      98000031
+    ],
+    "knots": [
+      25,
+      49,
+      97
+    ],
+    "scope": "Initial report/stop sensitivity; no uniform convergence claim"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "code_sha256": {
+    "dense_alignment_study.py": "a1be6d68b210ce7f7b334bd33c8a4a5b3eca62a0ca0ae544a10ac5d1abe66934",
+    "aligned_frontier.py": "b94b08838d51883f47b34d5e350330f75ef851534d3b75a7ff24f91f9fbd9138",
+    "fast_kernel.cpp": "fa34045393ab2cda4446f87b712c3e154e32dea8191fec88f07d3996deac5e87"
+  }
+}

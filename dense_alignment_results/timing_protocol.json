@@ -1,0 +1,43 @@
+{
+  "frames": 32,
+  "seeds": [
+    99000000,
+    99000031
+  ],
+  "config": {
+    "n": 4,
+    "frame_s": 0.02,
+    "bandwidth_hz": 1000000.0,
+    "ul_fraction": 0.8,
+    "probe_s": 0.00075,
+    "max_probes": 4,
+    "ul_bits": 30000.0,
+    "dl_bits": 1800.0,
+    "ul_power_w": 0.2,
+    "dl_power_w": 1.0,
+    "noise_figure_db": 7.0,
+    "shadow_db": 3.0,
+    "measurement_db": 1.0,
+    "reciprocity": 0.9,
+    "spacing_m": 200.0,
+    "altitude_m": 120.0,
+    "kappa": 4.0,
+    "pathloss_exponent": 2.7,
+    "excess_loss_db": 15.0,
+    "outage": 0.05,
+    "z_limit": 6.0,
+    "endpoint_tol": 2e-05,
+    "gain_tol_kbit": 0.002
+  },
+  "rho": 0.9607894391523232,
+  "methods": [
+    "Certificate-IVP",
+    "Frontier-aware-IVP",
+    "No-report-C",
+    "No-report-F"
+  ],
+  "clock": "perf_counter; serial single-thread randomized method order after three warm frames, generation and execution checks excluded",
+  "planner": "Includes native candidate design, sampled forecasts, posterior updates and final validation. Excludes offline compilation. No measured overruns affect service.",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+}

@@ -1,0 +1,10 @@
+{
+  "root_values": 3072,
+  "root_states": 192,
+  "terminal_records": 17920,
+  "matched_frame_seeds": 512,
+  "original_frontier_checks": 2048,
+  "cost_contrasts": 51,
+  "host_contrasts": 7,
+  "family": 58
+}

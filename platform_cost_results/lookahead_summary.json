@@ -1,0 +1,121 @@
+{
+  "config": {
+    "n": 4,
+    "frame_s": 0.02,
+    "bandwidth_hz": 1000000.0,
+    "ul_fraction": 0.8,
+    "probe_s": 0.00075,
+    "max_probes": 2,
+    "ul_bits": 30000.0,
+    "dl_bits": 1800.0,
+    "ul_power_w": 0.2,
+    "dl_power_w": 1.0,
+    "noise_figure_db": 7.0,
+    "shadow_db": 3.0,
+    "measurement_db": 1.0,
+    "reciprocity": 0.9,
+    "spacing_m": 200.0,
+    "altitude_m": 120.0,
+    "kappa": 4.0,
+    "pathloss_exponent": 2.7,
+    "excess_loss_db": 15.0,
+    "outage": 0.05,
+    "z_limit": 6.0,
+    "endpoint_tol": 2e-05,
+    "gain_tol_kbit": 0.002
+  },
+  "rho": 0.9607894391523232,
+  "frames": 128,
+  "costs": [
+    {
+      "alpha": 0.0,
+      "methods": {
+        "Predictive-NR": {
+          "completed": 99.71618749142667,
+          "outages": 2,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 106.24082109912472,
+          "outages": 1,
+          "mean_reports": 0.8359375
+        },
+        "Two-step-LA": {
+          "completed": 106.01473161174289,
+          "outages": 2,
+          "mean_reports": 1.0859375
+        }
+      },
+      "LA-IVP": {
+        "mean": -0.2260894873818483,
+        "low": -2.0149910420321056,
+        "high": 1.5628120672684087
+      },
+      "LA-NR": {
+        "mean": 6.298544120316208,
+        "low": 1.696827681617739,
+        "high": 10.900260559014677
+      }
+    },
+    {
+      "alpha": 0.005,
+      "methods": {
+        "Predictive-NR": {
+          "completed": 99.71618749142667,
+          "outages": 2,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 105.6097969434736,
+          "outages": 1,
+          "mean_reports": 0.8125
+        },
+        "Two-step-LA": {
+          "completed": 105.98902682730255,
+          "outages": 1,
+          "mean_reports": 1.03125
+        }
+      },
+      "LA-IVP": {
+        "mean": 0.37922988382895695,
+        "low": -1.2979966643026772,
+        "high": 2.056456431960591
+      },
+      "LA-NR": {
+        "mean": 6.272839335875894,
+        "low": 1.9127260811091515,
+        "high": 10.632952590642635
+      }
+    },
+    {
+      "alpha": 0.02,
+      "methods": {
+        "Predictive-NR": {
+          "completed": 99.71618749142667,
+          "outages": 2,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 102.31913249878141,
+          "outages": 3,
+          "mean_reports": 0.703125
+        },
+        "Two-step-LA": {
+          "completed": 102.04083295345201,
+          "outages": 3,
+          "mean_reports": 0.90625
+        }
+      },
+      "LA-IVP": {
+        "mean": -0.2782995453293903,
+        "low": -2.4391365894727266,
+        "high": 1.8825374988139463
+      },
+      "LA-NR": {
+        "mean": 2.324645462025355,
+        "low": -1.21422280727983,
+        "high": 5.86351373133054
+      }
+    }
+  ]
+}

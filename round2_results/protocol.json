@@ -1,0 +1,42 @@
+{
+  "date_utc": "2026-10-10",
+  "interval_seeds": [
+    110000,
+    110127
+  ],
+  "grids": [
+    13,
+    25,
+    49,
+    97
+  ],
+  "vector_seeds": [
+    230000,
+    230127
+  ],
+  "batch_orders": [
+    9,
+    17
+  ],
+  "order17_check_frames": 32,
+  "vector_components": 2,
+  "equal_report_airtime_s": 0.0015,
+  "regularization_floor_db": 1.0,
+  "regularization_choice": "Known report-noise SD, fixed before fresh evaluation; no floor sweep.",
+  "fresh_munich_geometry_seed": 967300,
+  "fresh_munich_test_frames": 256,
+  "fresh_fit_calibration": "Reuse original 128/64 independently frozen training/calibration samples.",
+  "timing_evaluation_seeds": [
+    240000,
+    240127
+  ],
+  "reservation_dev_seeds": [
+    940000,
+    940255
+  ],
+  "reservation_test_seeds": [
+    941000,
+    941511
+  ],
+  "fixed_count_family_size": 6
+}

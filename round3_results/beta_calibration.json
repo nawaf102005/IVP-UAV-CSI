@@ -1,0 +1,8 @@
+{
+  "n": 64,
+  "miscoverage": 0.04,
+  "confidence": 0.95,
+  "finite_rank_available": false,
+  "maximum_rank_confidence": 0.9266569587440383,
+  "minimum_n_for_finite_maximum": 74
+}

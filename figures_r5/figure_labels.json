@@ -1,0 +1,14 @@
+{
+  "value_accuracy": "fig:interval",
+  "r5_01_scaling": "fig:r5scale",
+  "r5_02_equivalence": "fig:r5tost",
+  "r5_03_breakeven": "fig:r5break",
+  "r5_04_mismatch": "fig:r5mismatch",
+  "r5_06_raytracing": "fig:r5ray",
+  "catalogue_pareto": "fig:catalogue",
+  "r5_05_risk_budget": "fig:r5risk",
+  "r5_10_allocator": "fig:r5allocator",
+  "r5_07_approximation": "fig:r5approx",
+  "r5_08_search": "fig:r5search",
+  "r5_09_pilots": "fig:r5pilot"
+}

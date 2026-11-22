@@ -1,0 +1,55 @@
+{
+  "settings": [
+    {
+      "scenario": "canyon_low-static",
+      "q": 4.654088114026183,
+      "q_original": 4.654088114026183,
+      "floor_db": 1.0,
+      "score_violations": 13,
+      "test": 256
+    },
+    {
+      "scenario": "canyon_low-motion",
+      "q": 4.119112409237534,
+      "q_original": 4.119112409237534,
+      "floor_db": 1.0,
+      "score_violations": 12,
+      "test": 256
+    },
+    {
+      "scenario": "canyon_high-static",
+      "q": 3.5919485967770868,
+      "q_original": 3.664038763908301,
+      "floor_db": 1.0,
+      "score_violations": 6,
+      "test": 256
+    },
+    {
+      "scenario": "canyon_high-motion",
+      "q": 5.1742642099982845,
+      "q_original": 5.1742642099982845,
+      "floor_db": 1.0,
+      "score_violations": 1,
+      "test": 256
+    },
+    {
+      "scenario": "munich-static",
+      "q": 5.890273457617274,
+      "q_original": 370.0998462514633,
+      "floor_db": 1.0,
+      "score_violations": 6,
+      "test": 256
+    },
+    {
+      "scenario": "munich-motion",
+      "q": 5.818574652456929,
+      "q_original": 5.818574652456929,
+      "floor_db": 1.0,
+      "score_violations": 6,
+      "test": 256
+    }
+  ],
+  "regularization": "Training covariance plus diagonal lift to report-noise variance; fixed before new test generation.",
+  "status": "Exploratory reuse of previously inspected test frames.",
+  "guarantee": "Marginal static exchangeability only; no new guarantee under motion or conditional on calibration."
+}

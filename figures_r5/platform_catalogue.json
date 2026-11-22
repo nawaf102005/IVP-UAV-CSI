@@ -1,0 +1,128 @@
+[
+  {
+    "name": "cost_tolerance_map",
+    "parent": "cost_tolerance_map",
+    "panel": null,
+    "title": "Platform-independent cost budget: Predictive-IVP",
+    "caption": "First zero of the piecewise-linear empirical mean gain; pointwise paired-bootstrap intervals are tabulated separately. N=4, T=20 ms, 128 paired states per cell, and rho=exp(-v*T/10m). The 10-m 1/e length is illustrative, not a fitted UAV parameter.",
+    "source": "platform_cost_results/boundary_summary.json; boundaries.csv",
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 3.45
+  },
+  {
+    "name": "cost_tolerance_margin",
+    "parent": "cost_tolerance_margin",
+    "panel": null,
+    "title": "Platform-independent cost budget: Predictive-Margin",
+    "caption": "First zero of the piecewise-linear empirical mean gain; pointwise paired-bootstrap intervals are tabulated separately. N=4, T=20 ms, 128 paired states per cell, and rho=exp(-v*T/10m). The 10-m 1/e length is illustrative, not a fitted UAV parameter.",
+    "source": "platform_cost_results/boundary_summary.json; boundaries.csv",
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 3.45
+  },
+  {
+    "name": "cost_support_map",
+    "parent": "cost_support_map",
+    "panel": null,
+    "title": "Platform-independent cost budget: Predictive-IVP",
+    "caption": "Largest initial tested cost prefix with positive simultaneous lower limits; no interpolation. N=4, T=20 ms, 128 paired states per cell, and rho=exp(-v*T/10m). The 10-m 1/e length is illustrative, not a fitted UAV parameter.",
+    "source": "platform_cost_results/boundary_summary.json; boundaries.csv",
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 3.45
+  },
+  {
+    "name": "size_duration_boundaries",
+    "parent": "size_duration_boundaries",
+    "panel": null,
+    "title": "Size/duration cost boundaries: Predictive-IVP",
+    "caption": "128 paired states per setting. Pointwise 95% paired-bootstrap intervals for empirical first crossings, not intervals for an exact continuous threshold. Fixed 0.75-ms report airtime, v=20m/s and illustrative dcor=10m; payload scales with T.",
+    "source": "platform_cost_results/boundary_summary.json",
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 2.7
+  },
+  {
+    "name": "margin_duration_boundaries",
+    "parent": "margin_duration_boundaries",
+    "panel": null,
+    "title": "Size/duration cost boundaries: Predictive-Margin",
+    "caption": "128 paired states per setting. Pointwise 95% paired-bootstrap intervals for empirical first crossings, not intervals for an exact continuous threshold. Fixed 0.75-ms report airtime, v=20m/s and illustrative dcor=10m; payload scales with T.",
+    "source": "platform_cost_results/boundary_summary.json",
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 2.7
+  },
+  {
+    "name": "frontier_cost_slice",
+    "parent": "frontier_cost_slice",
+    "panel": null,
+    "title": "Matched terminal-frontier ablation",
+    "caption": "N=4, T=20 ms, 128 paired states, v=20m/s and 0.75-ms reports. Bars are global simultaneous 95% paired-t intervals. Forecasts remain certificate-based; each reporting method and its no-report comparator use the same terminal allocator. Host elapsed time is excluded.",
+    "source": "platform_cost_results/frontier_N4_T20_summary.json; slice_N4_T20_summary.json",
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 2.85
+  },
+  {
+    "name": "q_accuracy_independent",
+    "parent": "q_accuracy_independent",
+    "panel": null,
+    "title": "Independent stratified report-value audit",
+    "caption": "3,072 candidate values in 192 fresh states, three independent 64-state traffic blocks and a bidirectional 16-coordinate catalogue. Candidate errors within one state are dependent. The root reference uses 1e-8 endpoint tolerance.",
+    "source": "independent_numerical_results/values.csv; summary.json; protocol.json",
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 2.7
+  }
+]

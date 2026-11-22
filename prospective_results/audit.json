@@ -1,0 +1,10 @@
+{
+  "reuse_frame_policy_records": 384000,
+  "host_frame_policy_records": 7680,
+  "profile_frame_policy_records": 2560,
+  "independently_reconstructed_reuse_intervals": 192,
+  "independently_reconstructed_host_intervals": 2,
+  "independently_reconstructed_profile_intervals": 18,
+  "archived_full_frontier_histories_exactly_reproduced": 12,
+  "protocol_source_hashes_match": true
+}

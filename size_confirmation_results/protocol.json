@@ -1,0 +1,36 @@
+{
+  "cells": [
+    [
+      6,
+      50,
+      171000000
+    ],
+    [
+      8,
+      100,
+      172000000
+    ]
+  ],
+  "frames": 512,
+  "alphas": [
+    0.0,
+    0.025
+  ],
+  "charge": "incremental per acquisition round; no-report avoids charge; terminal computation excluded",
+  "seed": "Distinct fresh seed blocks per size, paired across three methods, two budgets, two terminals within the size.",
+  "origin": "Reviewed size/duration settings from earlier 128-frame study; selected before this follow-up sample. Separate study from persistence and planning resolution.",
+  "settings": "Fixed 0.75-ms report and 20 m/s, dcor=10m. Payload proportional to duration relative to the 20-ms default. Full original certificate-based one-step forecasts, up to 4 reports. Both terminals score identical acquired histories. Frontier uses separate 4096-draw original final gate.",
+  "uncertainty": "24 simultaneous two-sided Bonferroni paired-t 95% intervals over two cells x two terminals x two per-round costs x three pairwise methods. Radio outages descriptive. No timing, reuse, or dense boundary estimation in this study.",
+  "methods": [
+    "Predictive-NR",
+    "Predictive-IVP",
+    "Predictive-Margin"
+  ],
+  "software": {
+    "size_confirmation.py": "c685c3ea7375bd49731e8a073e4d3aa4ff44da032b736bb8183cc6700f5f748f",
+    "dense_alignment_study.py": "a1be6d68b210ce7f7b334bd33c8a4a5b3eca62a0ca0ae544a10ac5d1abe66934",
+    "mobility_cost_study.py": "e3350fdfc3d3a845c8ba1f441b730e39ab33706041b4b888da94d49f096f736b",
+    "aligned_frontier.py": "b94b08838d51883f47b34d5e350330f75ef851534d3b75a7ff24f91f9fbd9138",
+    "fast_kernel.cpp": "fa34045393ab2cda4446f87b712c3e154e32dea8191fec88f07d3996deac5e87"
+  }
+}

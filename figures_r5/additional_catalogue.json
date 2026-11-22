@@ -1,0 +1,56 @@
+[
+  {
+    "name": "mobility_radio",
+    "parent": "mobility_radio",
+    "panel": null,
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 3.2,
+    "title": "Joint aging and report-cost map with radio airtime charged",
+    "caption": "128 paired test frames per cell at N=4 and T=20 ms. Known jointly Gaussian initial/execution log gains. Stars mark a positive Bonferroni simultaneous 95% lower limit against no-report across 120 contrasts. No cell establishes superiority over predictive sensitivity. Only radio report airtime is subtracted.",
+    "source": "mobility_cost_results/summary.json; protocol.json; reservations.json"
+  },
+  {
+    "name": "mobility_charged",
+    "parent": "mobility_charged",
+    "panel": null,
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 3.2,
+    "title": "Joint aging and report-cost map with computation charged",
+    "caption": "128 paired test frames per cell at N=4 and T=20 ms. Known jointly Gaussian initial/execution log gains. Stars mark a positive Bonferroni simultaneous 95% lower limit against no-report across 120 contrasts. No cell establishes superiority over predictive sensitivity. Method-specific computation reservations are fixed on 128 separate development frames; observed overruns are charged.",
+    "source": "mobility_cost_results/summary.json; protocol.json; reservations.json"
+  },
+  {
+    "name": "q_accuracy",
+    "parent": "q_accuracy",
+    "panel": null,
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 2.7,
+    "title": "Report-value approximation accuracy",
+    "caption": "Absolute Q errors for 256 candidate reports in 32 previously evaluated states. The reference uses convex minimization and Brent roots with 1e-8 endpoint tolerance. Candidates within a state are dependent. The horizontal scale is linear near zero. Adaptive integration tolerances are not uniform miss bounds.",
+    "source": "numerical_results/values.csv; decisions.json; protocol.json"
+  }
+]

@@ -1,0 +1,2 @@
+# Optional: only for regenerating propagation arrays, not running their analysis.
+sionna-rt==2.2.0

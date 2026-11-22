@@ -1,0 +1,10 @@
+{
+  "records_replayed": 107648,
+  "cells": 40,
+  "mismatches": 0,
+  "elapsed_host_time_used": false,
+  "observations_recomputed": true,
+  "terminal_allocations_recomputed": true,
+  "frontier_candidate_validation_recomputed": true,
+  "full_forecasts_recomputed": false
+}

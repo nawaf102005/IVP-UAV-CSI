@@ -1,0 +1,6 @@
+{
+  "replayed_held_out_execution_outcomes": 10240,
+  "matched_history_terminal_pairs": 5120,
+  "independently_reconstructed_intervals": 24,
+  "protocol_source_hashes_match": true
+}

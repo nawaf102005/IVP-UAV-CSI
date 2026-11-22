@@ -1,0 +1,53 @@
+document,figure_number,file,old_group,old_panel,title
+main,1,system_model,system_model,,System model
+main,2,q_accuracy_independent,q_accuracy_independent,,Independent stratified report-value audit
+main,3,aligned_frontier_gain,aligned_frontier_gain,,Fresh cost and allocation alignment: frontier
+main,4,allocator_persistent_age,allocator_persistent_age,,Service gain by terminal allocator and interval between report opportunities
+main,5,frontier_budget_6,frontier_budget_6,,"C-IVP and margin sensitivity (6 pairs, 50 ms)"
+main,6,frontier_budget_8,frontier_budget_8,,"C-IVP and margin sensitivity (8 pairs, 100 ms)"
+main,7,r5_03_breakeven_B,r5_03_breakeven,B,Rate gain over no-report
+main,8,r5_06_raytracing_D,r5_06_raytracing,D,Endpoint-aging outage
+supplement,S1,catalogue_pareto_A,catalogue_pareto,A,Catalogue tradeoff at six pairs
+supplement,S2,catalogue_pareto_B,catalogue_pareto,B,Catalogue tradeoff at eight pairs
+supplement,S3,r5_05_risk_budget_A,r5_05_risk_budget,A,Service-risk tradeoff
+supplement,S4,r5_05_risk_budget_B,r5_05_risk_budget,B,Report budget
+supplement,S5,r5_10_allocator_A,r5_10_allocator,A,Terminal allocator service
+supplement,S6,r5_07_approximation_A,r5_07_approximation,A,Scalar-grid shortfall
+supplement,S7,r5_07_approximation_B,r5_07_approximation,B,Vector enclosure gap
+supplement,S8,r5_07_approximation_C,r5_07_approximation,C,Vector enclosure cost
+supplement,S9,r5_08_search_B,r5_08_search,B,Interrupted-search gap
+supplement,S10,r5_08_search_C,r5_08_search,C,Interrupted-search time
+supplement,S11,r5_09_pilots_A,r5_09_pilots,A,Physical-pilot residuals
+supplement,S12,r5_09_pilots_B,r5_09_pilots,B,Pilot value discrepancy
+supplement,S13,value_accuracy_A,value_accuracy,A,Scalar-value error distribution
+supplement,S14,r5_01_scaling_A,r5_01_scaling,A,Completed service versus cluster size
+supplement,S15,r5_01_scaling_C,r5_01_scaling,C,Runtime distribution at eight pairs
+supplement,S16,r5_02_equivalence_B,r5_02_equivalence,B,Runtime ratio
+supplement,S17,r5_03_breakeven_A,r5_03_breakeven,A,Rate after computation charges
+supplement,S18,r5_03_breakeven_C,r5_03_breakeven,C,Reserved computation
+supplement,S19,r5_04_mismatch_A,r5_04_mismatch,A,Service versus true reciprocity
+supplement,S20,r5_04_mismatch_B,r5_04_mismatch,B,Service versus shadowing spread
+supplement,S21,r5_04_mismatch_D,r5_04_mismatch,D,Outage versus shadowing spread
+supplement,S22,r5_06_raytracing_A,r5_06_raytracing,A,Static ray-traced service
+supplement,S23,r5_06_raytracing_C,r5_06_raytracing,C,Endpoint-aging service
+supplement,S24,value_accuracy_B,value_accuracy,B,Grid sensitivity
+supplement,S25,r5_10_allocator_B,r5_10_allocator,B,Acquisition gain by allocator
+supplement,S26,r5_08_search_A,r5_08_search,A,Interrupted-search value ratio
+supplement,S27,r5_02_equivalence_A,r5_02_equivalence,A,Mean-service equivalence
+supplement,S28,r5_04_mismatch_C,r5_04_mismatch,C,Outage versus true reciprocity
+supplement,S29,r5_06_raytracing_B,r5_06_raytracing,B,Static ray-traced outage
+supplement,S30,cost_tolerance_margin,cost_tolerance_margin,,Platform-independent cost budget: Predictive-Margin
+supplement,S31,cost_support_map,cost_support_map,,Platform-independent cost budget: Predictive-IVP
+supplement,S32,q_accuracy,q_accuracy,,Report-value approximation accuracy
+supplement,S33,mobility_radio,mobility_radio,,Joint aging and report-cost map with radio airtime charged
+supplement,S34,mobility_charged,mobility_charged,,Joint aging and report-cost map with computation charged
+supplement,S35,cost_tolerance_map,cost_tolerance_map,,Platform-independent cost budget: Predictive-IVP
+supplement,S36,margin_duration_boundaries,margin_duration_boundaries,,Size/duration cost boundaries: Predictive-Margin
+supplement,S37,size_duration_boundaries,size_duration_boundaries,,Size/duration cost boundaries: Predictive-IVP
+supplement,S38,frontier_cost_break_even,frontier_cost_break_even,,Per-round decision budget with a matched terminal frontier
+supplement,S39,frontier_cost_slice,frontier_cost_slice,,Matched terminal-frontier ablation
+supplement,S40,dense_cost_refinement,dense_cost_refinement,,Fresh cost and allocation alignment: dense
+supplement,S41,frontier_dense_replay,frontier_dense_replay,,Matched terminal frontier across decision budgets
+supplement,S42,r5_01_scaling_B,r5_01_scaling,B,Decision time versus cluster size
+supplement,S43,persistent_frontier_gain,persistent_frontier_gain,,Service from persistent reports with a common frontier
+supplement,S44,frontier_planning_resolution,frontier_planning_resolution,,"Planning draws, integration nodes and wall time"

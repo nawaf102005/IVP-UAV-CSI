@@ -1,0 +1,55 @@
+{
+  "study": "Post-review numerical value diagnostic",
+  "config": {
+    "n": 4,
+    "frame_s": 0.02,
+    "bandwidth_hz": 1000000.0,
+    "ul_fraction": 0.8,
+    "probe_s": 0.00075,
+    "max_probes": 4,
+    "ul_bits": 30000.0,
+    "dl_bits": 1800.0,
+    "ul_power_w": 0.2,
+    "dl_power_w": 1.0,
+    "noise_figure_db": 7.0,
+    "shadow_db": 3.0,
+    "measurement_db": 1.0,
+    "reciprocity": 0.9,
+    "spacing_m": 200.0,
+    "altitude_m": 120.0,
+    "kappa": 4.0,
+    "pathloss_exponent": 2.7,
+    "excess_loss_db": 15.0,
+    "outage": 0.05,
+    "z_limit": 6.0,
+    "endpoint_tol": 1e-08,
+    "gain_tol_kbit": 0.002
+  },
+  "state_seeds": [
+    110000,
+    110031
+  ],
+  "reuse": "First states of the existing 128-state held-out audit; not a new independent sample",
+  "candidate_order": "All default coordinates",
+  "competitors": [
+    "CDF25",
+    "KG17",
+    "Adaptive-GK"
+  ],
+  "adaptive": {
+    "epsabs": 0.0001,
+    "epsrel": 1e-07,
+    "limit": 500,
+    "fixed_points": [
+      -4,
+      -2,
+      0,
+      2,
+      4
+    ]
+  },
+  "reference": "Existing Python convex minimization and Brent roots, endpoint_tol=1e-8; finite precision, tail truncated at +/-6",
+  "timing": "One warmed evaluation per method and candidate; deterministic randomized method order; sequential one-thread run. Root timing includes its Python implementation and cannot establish algorithmic speed superiority.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+}

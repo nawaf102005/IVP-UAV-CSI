@@ -1,0 +1,58 @@
+{
+  "design": "S18 budget refinement and independent confirmation. Endpoints of the original S18 curves were known. The intermediate budgets, new seeds, analyses and timing procedure were fixed locally before running them. Original and fresh outputs remain separate.",
+  "cells": {
+    "6": {
+      "T_ms": 50,
+      "original_start": 171000000,
+      "confirmation_start": 181000000
+    },
+    "8": {
+      "T_ms": 100,
+      "original_start": 172000000,
+      "confirmation_start": 182000000
+    }
+  },
+  "frames": 512,
+  "grid_fractions": [
+    0.0,
+    0.0025,
+    0.005,
+    0.0075,
+    0.01,
+    0.0125,
+    0.015,
+    0.0175,
+    0.02,
+    0.0225,
+    0.025
+  ],
+  "complete_reoptimization": true,
+  "seed_matching": "Same geometry, payload, report errors, execution realization and 4096-draw final validation seed per frame across methods and costs. The two sizes and two seed blocks are disjoint.",
+  "roles": "S18 rows and curves descriptive; original 24-contrast endpoint family retained. Primary intervals from extra 512 independent frames per size, simultaneous two-sided Bonferroni paired t over two sizes x eleven costs x three contrasts (66). No pooling. All costs are incremental per acquisition round; common final frontier excluded. No-report incurs no acquisition charge.",
+  "mean_crossing": "First crossing of the piecewise-linear mean gain starting at zero cost. Linear interpolation only inside the first positive-to-nonpositive bracket. All sampled sign changes retained; no monotonicity assumed. If the curve starts nonpositive, record no positive initial region. If always positive, crossing is right censored.",
+  "uncertainty": "5000 paired frame-bootstrap resamples using the same frame indices at all costs in that cell. Percentile interval for grid-linear first crossing, pointwise per cell/rule. For bootstrap quantiles only, no initial positive region maps to 0 and rights censored map to maximum tested cost; counts and flags retained. No claim of a continuous threshold between tested costs.",
+  "supported": "Largest initial contiguous tested grid prefix with strictly positive simultaneous lower limits starting at zero. No supported prefix if zero-cost lower limit is nonpositive. Never label an interpolated crossing as a supported limit.",
+  "work": "Count all C++ feasible(action,mode,z) calls in the certificate report/stop planner, including stop rounds; exclude the final frontier. Also record scalar forecasts, directional solves and preparations. One feasibility call can have different arithmetic cost at another size. The no-report acquisition workload is zero.",
+  "timing": "After parallel runs: pinned logical CPU, BLAS/OMP single-threaded, original uninstrumented run_policy wall_s. Two randomized repeats per first 128 confirmation identities. At each size evaluate C-IVP at the estimated first crossing, at the largest positive supported budget (when defined), and at a fixed 0.5% budget. Two separate development identities warm up the code. Clock includes certificate-valued acquisition and updates through stopping, excludes common frontier, truth-based scoring and compilation. A separate counted replay of identical decisions yields tests/round. Aggregate wall across repeats divided by aggregate rounds. Speedup = measured acquisition ms/round divided by target ms/round; equivalent throughput = mean calls/round divided by target ms/round. Neither is a deadline guarantee.",
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 2026112100,
+  "confirmation_family": 66,
+  "timing_frames": 128,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "code_sha256": {
+    "frontier_break_even.py": "75d619d9037aa3ecda15ca48036de8f4c053cd8a286172d32e76f2b824e54551",
+    "certificate_work_audit.py": "ebad3113743ea33adebcc5fdaaf2db735a63d1854c4bd0f65aba4f9a2e23a78a",
+    "aligned_frontier.py": "b94b08838d51883f47b34d5e350330f75ef851534d3b75a7ff24f91f9fbd9138",
+    "mobility_cost_study.py": "e3350fdfc3d3a845c8ba1f441b730e39ab33706041b4b888da94d49f096f736b",
+    "fast_kernel.cpp": "fa34045393ab2cda4446f87b712c3e154e32dea8191fec88f07d3996deac5e87",
+    "dense_alignment_study.py": "a1be6d68b210ce7f7b334bd33c8a4a5b3eca62a0ca0ae544a10ac5d1abe66934"
+  },
+  "original_files_sha256": {
+    "N6_T50.jsonl.gz": "b487088c0882fae4c4c842e1026ad6660e855a5aa21eb7fd787d8c68c6270e77",
+    "N8_T100.jsonl.gz": "c09508298b73188cb5ef0d31eac9612a5b3267419c3819fb361053a5df6bee18"
+  }
+}

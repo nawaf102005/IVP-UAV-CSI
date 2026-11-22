@@ -1,0 +1,38 @@
+[
+  {
+    "name": "dense_cost_refinement",
+    "parent": "dense_cost_refinement",
+    "panel": null,
+    "title": "Fresh cost and allocation alignment: dense",
+    "caption": "512 fresh paired frames; 60-contrast simultaneous 95% paired-t intervals. N=4, T=20 ms, rho=exp(-0.04), tau=0.75 ms. 17 cost points; dashed line is supported tested prefix, dotted line is empirical first crossing.",
+    "source": "dense_alignment_results/summary.json; boundary_summary.json",
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 2.95
+  },
+  {
+    "name": "aligned_frontier_gain",
+    "parent": "aligned_frontier_gain",
+    "panel": null,
+    "title": "Fresh cost and allocation alignment: frontier",
+    "caption": "512 fresh paired frames; 60-contrast simultaneous 95% paired-t intervals. N=4, T=20 ms, rho=exp(-0.04), tau=0.75 ms. All policies use the same finite terminal frontier with independent final validation. The frontier-aware forecast uses the scaled-power and filled-OMA candidate family, 4096 private planning draws and 49 approximate Gaussian midpoint nodes. No analytic interval guarantee is asserted for it.",
+    "source": "dense_alignment_results/summary.json; boundary_summary.json",
+    "font": "Times New Roman",
+    "font_size_pt": 9.5,
+    "box_sides": [
+      "left",
+      "bottom",
+      "right",
+      "top"
+    ],
+    "width_in": 3.5,
+    "height_in": 2.85
+  }
+]

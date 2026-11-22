@@ -1,0 +1,6 @@
+{
+  "seed_start": 220000,
+  "count": 1024,
+  "screening": "top two/four reductions of linearized variance of worst full-set row-power bound",
+  "elapsed_s": 8.920971250000093
+}

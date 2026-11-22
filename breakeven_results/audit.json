@@ -1,0 +1,9 @@
+{
+  "scored_frontier_outcomes": 47104,
+  "identical_original_S18_frontier_outcomes": 5120,
+  "heldout_paired_bands_checked": 66,
+  "archived_descriptive_contrasts_checked": 66,
+  "estimated_boundary_records_checked": 8,
+  "hardware_timing_records_checked": 1024,
+  "frozen_source_hashes_match": true
+}

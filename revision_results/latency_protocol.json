@@ -1,0 +1,1376 @@
+{
+  "reserve_per_round_s": {
+    "C-IVP": 0.004350000000000001,
+    "C-IVP-S2": 0.0024000000000000002,
+    "Margin-sensitivity": 0.00185,
+    "A-stop": 0.00235,
+    "3pt-VoI": 0.00385,
+    "No-report": 0.0007,
+    "OMA": 0.0004
+  },
+  "development": [
+    {
+      "label": "C-IVP",
+      "seed": 930000,
+      "per_round_s": 0.0017520860000104221,
+      "cpu_per_round_s": 0.0017520920000000384
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930001,
+      "per_round_s": 0.0009683490000043093,
+      "cpu_per_round_s": 0.0009683540000000601
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930002,
+      "per_round_s": 0.0016851090000500335,
+      "cpu_per_round_s": 0.0016849139999997043
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930003,
+      "per_round_s": 0.002196140500018373,
+      "cpu_per_round_s": 0.0021965664999998857
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930004,
+      "per_round_s": 0.0021595700000034412,
+      "cpu_per_round_s": 0.002159962999999987
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930005,
+      "per_round_s": 0.0017192230000091513,
+      "cpu_per_round_s": 0.001718667000000007
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930006,
+      "per_round_s": 0.001868761999958224,
+      "cpu_per_round_s": 0.0018694360000002241
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930007,
+      "per_round_s": 0.001026899499947831,
+      "cpu_per_round_s": 0.0010269364999999642
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930008,
+      "per_round_s": 0.0019254809999438294,
+      "cpu_per_round_s": 0.0019248599999999172
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930009,
+      "per_round_s": 0.0011562684999830708,
+      "cpu_per_round_s": 0.0011565435000000512
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930010,
+      "per_round_s": 0.0021441740000227583,
+      "cpu_per_round_s": 0.0021449419999997055
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930011,
+      "per_round_s": 0.0017901169999277045,
+      "cpu_per_round_s": 0.0017907479999998976
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930012,
+      "per_round_s": 9.784300004866964e-05,
+      "cpu_per_round_s": 9.743000000028701e-05
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930013,
+      "per_round_s": 8.283600004688196e-05,
+      "cpu_per_round_s": 8.265800000017975e-05
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930014,
+      "per_round_s": 0.0018416880000131641,
+      "cpu_per_round_s": 0.0018420937499999956
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930015,
+      "per_round_s": 0.001949988500030031,
+      "cpu_per_round_s": 0.0019503515000001137
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930016,
+      "per_round_s": 0.0021823780000431725,
+      "cpu_per_round_s": 0.0021816810000001574
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930017,
+      "per_round_s": 0.001447729200003778,
+      "cpu_per_round_s": 0.0014476934000000163
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930018,
+      "per_round_s": 0.0016893139999183404,
+      "cpu_per_round_s": 0.001689129000000289
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930019,
+      "per_round_s": 9.195799998451548e-05,
+      "cpu_per_round_s": 9.130600000029077e-05
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930020,
+      "per_round_s": 0.0020456749999766544,
+      "cpu_per_round_s": 0.0020467349999999662
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930021,
+      "per_round_s": 0.0017275980000022173,
+      "cpu_per_round_s": 0.0017282839999999133
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930022,
+      "per_round_s": 0.0017491940000127215,
+      "cpu_per_round_s": 0.0017490000000002226
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930023,
+      "per_round_s": 0.0008396405000326013,
+      "cpu_per_round_s": 0.0008397600000000782
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930024,
+      "per_round_s": 0.0014714430000140055,
+      "cpu_per_round_s": 0.0014715339999997745
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930025,
+      "per_round_s": 0.0019416630000250734,
+      "cpu_per_round_s": 0.001942619999999895
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930026,
+      "per_round_s": 0.0018047070000193344,
+      "cpu_per_round_s": 0.001804719999999982
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930027,
+      "per_round_s": 0.0019428074999723322,
+      "cpu_per_round_s": 0.001942936500000103
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930028,
+      "per_round_s": 0.001760902499995609,
+      "cpu_per_round_s": 0.0017607514999999907
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930029,
+      "per_round_s": 0.0014367719999957747,
+      "cpu_per_round_s": 0.0014369859999998624
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930030,
+      "per_round_s": 0.0011379869999927905,
+      "cpu_per_round_s": 0.001138157000000195
+    },
+    {
+      "label": "C-IVP",
+      "seed": 930031,
+      "per_round_s": 0.001467057000013483,
+      "cpu_per_round_s": 0.001467021999999929
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930000,
+      "per_round_s": 0.0012196375000144144,
+      "cpu_per_round_s": 0.0012199620000001854
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930001,
+      "per_round_s": 0.0005803770000056829,
+      "cpu_per_round_s": 0.0005803950000000668
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930002,
+      "per_round_s": 0.0008763409999801297,
+      "cpu_per_round_s": 0.0008768710000000013
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930003,
+      "per_round_s": 0.0008607729999994262,
+      "cpu_per_round_s": 0.0008614314999999539
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930004,
+      "per_round_s": 0.0008763240000462247,
+      "cpu_per_round_s": 0.0008765410000002305
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930005,
+      "per_round_s": 0.0009523979999812582,
+      "cpu_per_round_s": 0.0009530029999997858
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930006,
+      "per_round_s": 0.0008697590000110722,
+      "cpu_per_round_s": 0.0008695350000000879
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930007,
+      "per_round_s": 0.0005050439999649825,
+      "cpu_per_round_s": 0.0005053289999998878
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930008,
+      "per_round_s": 0.0007615690000193354,
+      "cpu_per_round_s": 0.0007617130000001637
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930009,
+      "per_round_s": 0.0005411464999838245,
+      "cpu_per_round_s": 0.0005415119999998552
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930010,
+      "per_round_s": 0.0011666760000252907,
+      "cpu_per_round_s": 0.0011669479999998345
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930011,
+      "per_round_s": 0.0009609020000880264,
+      "cpu_per_round_s": 0.000961567000000052
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930012,
+      "per_round_s": 0.00013735200002429337,
+      "cpu_per_round_s": 0.00013669099999980006
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930013,
+      "per_round_s": 0.00010957100005271059,
+      "cpu_per_round_s": 0.0001080970000000292
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930014,
+      "per_round_s": 0.0009907910000492848,
+      "cpu_per_round_s": 0.0009921720000001244
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930015,
+      "per_round_s": 0.0009961090000274453,
+      "cpu_per_round_s": 0.0009963520000000337
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930016,
+      "per_round_s": 0.0010402020000128687,
+      "cpu_per_round_s": 0.0010407320000003217
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930017,
+      "per_round_s": 0.001081722999970225,
+      "cpu_per_round_s": 0.0010783924999999694
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930018,
+      "per_round_s": 0.0007932309999887366,
+      "cpu_per_round_s": 0.0007929020000001508
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930019,
+      "per_round_s": 0.0002110330000277827,
+      "cpu_per_round_s": 0.0002102219999997601
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930020,
+      "per_round_s": 0.001068561000010959,
+      "cpu_per_round_s": 0.0010693770000003155
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930021,
+      "per_round_s": 0.0011952859999837528,
+      "cpu_per_round_s": 0.0011965420000001892
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930022,
+      "per_round_s": 0.0010450799999262017,
+      "cpu_per_round_s": 0.0010458079999997594
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930023,
+      "per_round_s": 0.0006936949999953868,
+      "cpu_per_round_s": 0.0006940563333333039
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930024,
+      "per_round_s": 0.0011730410000154734,
+      "cpu_per_round_s": 0.0011734649999999291
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930025,
+      "per_round_s": 0.00098031599998194,
+      "cpu_per_round_s": 0.000980411999999653
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930026,
+      "per_round_s": 0.0007864665000170135,
+      "cpu_per_round_s": 0.0007868895000000542
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930027,
+      "per_round_s": 0.0008767150000039692,
+      "cpu_per_round_s": 0.0008770424999999804
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930028,
+      "per_round_s": 0.0010341139999923143,
+      "cpu_per_round_s": 0.0010342824999998168
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930029,
+      "per_round_s": 0.001032552500021211,
+      "cpu_per_round_s": 0.0010317097500001093
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930030,
+      "per_round_s": 0.0005496585000059895,
+      "cpu_per_round_s": 0.0005497850000000248
+    },
+    {
+      "label": "C-IVP-S2",
+      "seed": 930031,
+      "per_round_s": 0.0006488757999932205,
+      "cpu_per_round_s": 0.0006489801999999933
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930000,
+      "per_round_s": 0.0007414785000037227,
+      "cpu_per_round_s": 0.0007419150000000929
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930001,
+      "per_round_s": 0.00039487799998975487,
+      "cpu_per_round_s": 0.00039471633333339656
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930002,
+      "per_round_s": 0.0006077419999428457,
+      "cpu_per_round_s": 0.0006071229999999872
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930003,
+      "per_round_s": 0.0006244010000386879,
+      "cpu_per_round_s": 0.0006244060000000218
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930004,
+      "per_round_s": 0.0006224210000027597,
+      "cpu_per_round_s": 0.0006169730000000762
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930005,
+      "per_round_s": 0.0008335640000041167,
+      "cpu_per_round_s": 0.0008337649999998753
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930006,
+      "per_round_s": 0.0007354140000188636,
+      "cpu_per_round_s": 0.0007362760000000357
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930007,
+      "per_round_s": 0.0005537209999981011,
+      "cpu_per_round_s": 0.0005538869999999937
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930008,
+      "per_round_s": 0.0007412119999798961,
+      "cpu_per_round_s": 0.0007408500000001261
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930009,
+      "per_round_s": 0.00034930249995568374,
+      "cpu_per_round_s": 0.00034916200000001396
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930010,
+      "per_round_s": 0.0009900900000729962,
+      "cpu_per_round_s": 0.000990664000000141
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930011,
+      "per_round_s": 0.000707344000034027,
+      "cpu_per_round_s": 0.0007071739999999771
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930012,
+      "per_round_s": 0.00028854099991804105,
+      "cpu_per_round_s": 0.0002880840000001328
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930013,
+      "per_round_s": 8.976100002655585e-05,
+      "cpu_per_round_s": 8.934199999988124e-05
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930014,
+      "per_round_s": 0.0007108810000318044,
+      "cpu_per_round_s": 0.0007890669999999211
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930015,
+      "per_round_s": 0.0006144094999740446,
+      "cpu_per_round_s": 0.0006147884999998521
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930016,
+      "per_round_s": 0.0009888700000146855,
+      "cpu_per_round_s": 0.0009849669999999477
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930017,
+      "per_round_s": 0.0006299469999930807,
+      "cpu_per_round_s": 0.0006301239999999542
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930018,
+      "per_round_s": 0.0005936730000257739,
+      "cpu_per_round_s": 0.000593665000000243
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930019,
+      "per_round_s": 8.825899999465037e-05,
+      "cpu_per_round_s": 8.808599999987621e-05
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930020,
+      "per_round_s": 0.0006498249999822292,
+      "cpu_per_round_s": 0.0006505190000001271
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930021,
+      "per_round_s": 0.0007378940000535295,
+      "cpu_per_round_s": 0.0007377339999998789
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930022,
+      "per_round_s": 0.0007248699999991004,
+      "cpu_per_round_s": 0.0007194090000002262
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930023,
+      "per_round_s": 0.0004942716666770745,
+      "cpu_per_round_s": 0.0004945253333333474
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930024,
+      "per_round_s": 0.0007663970000066911,
+      "cpu_per_round_s": 0.0007655940000002026
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930025,
+      "per_round_s": 0.0005120509999869682,
+      "cpu_per_round_s": 0.0005116819999999578
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930026,
+      "per_round_s": 0.000651612500007559,
+      "cpu_per_round_s": 0.0006519700000000572
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930027,
+      "per_round_s": 0.0006639145000235658,
+      "cpu_per_round_s": 0.0006616640000001173
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930028,
+      "per_round_s": 0.0006407463333365134,
+      "cpu_per_round_s": 0.0006412849999999359
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930029,
+      "per_round_s": 0.0006687462499996855,
+      "cpu_per_round_s": 0.0006688175000000296
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930030,
+      "per_round_s": 0.0003387374999874737,
+      "cpu_per_round_s": 0.0003386420000000001
+    },
+    {
+      "label": "Margin-sensitivity",
+      "seed": 930031,
+      "per_round_s": 0.0004942185999880167,
+      "cpu_per_round_s": 0.0004936209999999441
+    },
+    {
+      "label": "A-stop",
+      "seed": 930000,
+      "per_round_s": 0.0002802470000347057,
+      "cpu_per_round_s": 0.0002801544999999628
+    },
+    {
+      "label": "A-stop",
+      "seed": 930001,
+      "per_round_s": 0.00034697800003868906,
+      "cpu_per_round_s": 0.0003470929999997985
+    },
+    {
+      "label": "A-stop",
+      "seed": 930002,
+      "per_round_s": 0.0003566259999843169,
+      "cpu_per_round_s": 0.0003566610000000914
+    },
+    {
+      "label": "A-stop",
+      "seed": 930003,
+      "per_round_s": 0.00043902199990952795,
+      "cpu_per_round_s": 0.00043429099999992005
+    },
+    {
+      "label": "A-stop",
+      "seed": 930004,
+      "per_round_s": 0.00031794099993476266,
+      "cpu_per_round_s": 0.00031779900000028505
+    },
+    {
+      "label": "A-stop",
+      "seed": 930005,
+      "per_round_s": 0.0003400530000590152,
+      "cpu_per_round_s": 0.0003403359999998301
+    },
+    {
+      "label": "A-stop",
+      "seed": 930006,
+      "per_round_s": 0.000281055999948876,
+      "cpu_per_round_s": 0.0002810030000000019
+    },
+    {
+      "label": "A-stop",
+      "seed": 930007,
+      "per_round_s": 0.00034333699989019806,
+      "cpu_per_round_s": 0.0003430679999998354
+    },
+    {
+      "label": "A-stop",
+      "seed": 930008,
+      "per_round_s": 0.0003009840000913755,
+      "cpu_per_round_s": 0.0003006039999999821
+    },
+    {
+      "label": "A-stop",
+      "seed": 930009,
+      "per_round_s": 0.0004415939999944385,
+      "cpu_per_round_s": 0.00044204199999997584
+    },
+    {
+      "label": "A-stop",
+      "seed": 930010,
+      "per_round_s": 0.00035927800001900323,
+      "cpu_per_round_s": 0.00035939699999998354
+    },
+    {
+      "label": "A-stop",
+      "seed": 930011,
+      "per_round_s": 0.0002934069999582789,
+      "cpu_per_round_s": 0.000293262999999655
+    },
+    {
+      "label": "A-stop",
+      "seed": 930012,
+      "per_round_s": 9.663999992426398e-05,
+      "cpu_per_round_s": 9.562799999995875e-05
+    },
+    {
+      "label": "A-stop",
+      "seed": 930013,
+      "per_round_s": 7.724600004621607e-05,
+      "cpu_per_round_s": 7.715799999985506e-05
+    },
+    {
+      "label": "A-stop",
+      "seed": 930014,
+      "per_round_s": 0.0003025219999699402,
+      "cpu_per_round_s": 0.00030232499999982565
+    },
+    {
+      "label": "A-stop",
+      "seed": 930015,
+      "per_round_s": 0.001035944000022937,
+      "cpu_per_round_s": 0.0010364080000000442
+    },
+    {
+      "label": "A-stop",
+      "seed": 930016,
+      "per_round_s": 0.001656124999954045,
+      "cpu_per_round_s": 0.001656897000000157
+    },
+    {
+      "label": "A-stop",
+      "seed": 930017,
+      "per_round_s": 0.0003931753333290544,
+      "cpu_per_round_s": 0.00039302466666664887
+    },
+    {
+      "label": "A-stop",
+      "seed": 930018,
+      "per_round_s": 0.0007112220000635716,
+      "cpu_per_round_s": 0.0007112799999999808
+    },
+    {
+      "label": "A-stop",
+      "seed": 930019,
+      "per_round_s": 0.00013069199997062242,
+      "cpu_per_round_s": 0.0001293229999999035
+    },
+    {
+      "label": "A-stop",
+      "seed": 930020,
+      "per_round_s": 0.00035227200010012893,
+      "cpu_per_round_s": 0.0003485570000001381
+    },
+    {
+      "label": "A-stop",
+      "seed": 930021,
+      "per_round_s": 0.0004600190000019211,
+      "cpu_per_round_s": 0.0004596150000000243
+    },
+    {
+      "label": "A-stop",
+      "seed": 930022,
+      "per_round_s": 0.00041826300002867356,
+      "cpu_per_round_s": 0.0004177330000003643
+    },
+    {
+      "label": "A-stop",
+      "seed": 930023,
+      "per_round_s": 0.0013067830000181857,
+      "cpu_per_round_s": 0.0013072339999999905
+    },
+    {
+      "label": "A-stop",
+      "seed": 930024,
+      "per_round_s": 0.0003251269999964279,
+      "cpu_per_round_s": 0.0003242700000001264
+    },
+    {
+      "label": "A-stop",
+      "seed": 930025,
+      "per_round_s": 0.00032114699990870577,
+      "cpu_per_round_s": 0.00032053799999998134
+    },
+    {
+      "label": "A-stop",
+      "seed": 930026,
+      "per_round_s": 0.0004145127999890974,
+      "cpu_per_round_s": 0.00041396719999999834
+    },
+    {
+      "label": "A-stop",
+      "seed": 930027,
+      "per_round_s": 0.00031821599998238526,
+      "cpu_per_round_s": 0.00031777200000004946
+    },
+    {
+      "label": "A-stop",
+      "seed": 930028,
+      "per_round_s": 0.0004691922499944212,
+      "cpu_per_round_s": 0.0004694187500000613
+    },
+    {
+      "label": "A-stop",
+      "seed": 930029,
+      "per_round_s": 0.00041418199998588534,
+      "cpu_per_round_s": 0.0004145585000001617
+    },
+    {
+      "label": "A-stop",
+      "seed": 930030,
+      "per_round_s": 0.0007410030000301049,
+      "cpu_per_round_s": 0.0007369920000002139
+    },
+    {
+      "label": "A-stop",
+      "seed": 930031,
+      "per_round_s": 0.00039207199995416886,
+      "cpu_per_round_s": 0.00039103200000001337
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930000,
+      "per_round_s": 0.001466538999977729,
+      "cpu_per_round_s": 0.001467096500000098
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930001,
+      "per_round_s": 0.0006540425000025607,
+      "cpu_per_round_s": 0.0006542455000000391
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930002,
+      "per_round_s": 0.0012876829999868278,
+      "cpu_per_round_s": 0.0012879390000000157
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930003,
+      "per_round_s": 0.0015189974999998412,
+      "cpu_per_round_s": 0.001519382499999944
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930004,
+      "per_round_s": 0.001095018999990316,
+      "cpu_per_round_s": 0.0010946179999997696
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930005,
+      "per_round_s": 0.001178636999952687,
+      "cpu_per_round_s": 0.0011785239999997366
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930006,
+      "per_round_s": 0.0017163600000458246,
+      "cpu_per_round_s": 0.0017166060000000094
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930007,
+      "per_round_s": 0.000791901000013695,
+      "cpu_per_round_s": 0.0008167345000000825
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930008,
+      "per_round_s": 0.0011171400000193898,
+      "cpu_per_round_s": 0.0011169349999997635
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930009,
+      "per_round_s": 0.0007289013333320327,
+      "cpu_per_round_s": 0.0007289453333333048
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930010,
+      "per_round_s": 0.0011327189999974507,
+      "cpu_per_round_s": 0.0011318590000000128
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930011,
+      "per_round_s": 0.0013364210000190724,
+      "cpu_per_round_s": 0.0013368219999998487
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930012,
+      "per_round_s": 8.926900000005844e-05,
+      "cpu_per_round_s": 8.890399999961218e-05
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930013,
+      "per_round_s": 8.499500006564631e-05,
+      "cpu_per_round_s": 8.490299999985851e-05
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930014,
+      "per_round_s": 0.0011944709999625047,
+      "cpu_per_round_s": 0.0011946919999998862
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930015,
+      "per_round_s": 0.0016009545000201797,
+      "cpu_per_round_s": 0.0016016359999999619
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930016,
+      "per_round_s": 0.0011117369999738003,
+      "cpu_per_round_s": 0.0011113460000000686
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930017,
+      "per_round_s": 0.0011038665000455694,
+      "cpu_per_round_s": 0.001103943499999982
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930018,
+      "per_round_s": 0.0011231219999672248,
+      "cpu_per_round_s": 0.0011230400000004082
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930019,
+      "per_round_s": 8.66889999997511e-05,
+      "cpu_per_round_s": 8.640699999995505e-05
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930020,
+      "per_round_s": 0.001239390000023377,
+      "cpu_per_round_s": 0.0012388969999999055
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930021,
+      "per_round_s": 0.0019459869999991497,
+      "cpu_per_round_s": 0.001946631000000032
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930022,
+      "per_round_s": 0.0021540879999975004,
+      "cpu_per_round_s": 0.0021549189999996443
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930023,
+      "per_round_s": 0.00097806066666332,
+      "cpu_per_round_s": 0.000978164333333235
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930024,
+      "per_round_s": 0.0011139039999079614,
+      "cpu_per_round_s": 0.0011136080000002657
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930025,
+      "per_round_s": 0.0013982469999973546,
+      "cpu_per_round_s": 0.0013984229999999265
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930026,
+      "per_round_s": 0.0013311614999906851,
+      "cpu_per_round_s": 0.0013315769999999727
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930027,
+      "per_round_s": 0.0013117620000002717,
+      "cpu_per_round_s": 0.0013118084999999002
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930028,
+      "per_round_s": 0.0018950345000234847,
+      "cpu_per_round_s": 0.0018950625000000443
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930029,
+      "per_round_s": 0.0014794619999823528,
+      "cpu_per_round_s": 0.0014798216666666402
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930030,
+      "per_round_s": 0.0009906789999831744,
+      "cpu_per_round_s": 0.0010191550000000493
+    },
+    {
+      "label": "3pt-VoI",
+      "seed": 930031,
+      "per_round_s": 0.0016683070000453881,
+      "cpu_per_round_s": 0.0016686859999999193
+    },
+    {
+      "label": "No-report",
+      "seed": 930000,
+      "per_round_s": 0.00013973199997963093,
+      "cpu_per_round_s": 0.00013930300000009055
+    },
+    {
+      "label": "No-report",
+      "seed": 930001,
+      "per_round_s": 8.247300002039992e-05,
+      "cpu_per_round_s": 8.234699999976058e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930002,
+      "per_round_s": 0.00011595499995564751,
+      "cpu_per_round_s": 0.00011598399999979137
+    },
+    {
+      "label": "No-report",
+      "seed": 930003,
+      "per_round_s": 0.0002838079999492038,
+      "cpu_per_round_s": 0.0002840229999998556
+    },
+    {
+      "label": "No-report",
+      "seed": 930004,
+      "per_round_s": 9.868200004348182e-05,
+      "cpu_per_round_s": 9.792399999986046e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930005,
+      "per_round_s": 7.634299993242166e-05,
+      "cpu_per_round_s": 7.634099999975774e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930006,
+      "per_round_s": 0.00011209000001599634,
+      "cpu_per_round_s": 0.00011096699999990634
+    },
+    {
+      "label": "No-report",
+      "seed": 930007,
+      "per_round_s": 8.670600004734297e-05,
+      "cpu_per_round_s": 8.600900000033107e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930008,
+      "per_round_s": 0.00011319800000819669,
+      "cpu_per_round_s": 0.00011228599999979494
+    },
+    {
+      "label": "No-report",
+      "seed": 930009,
+      "per_round_s": 9.291700007452164e-05,
+      "cpu_per_round_s": 9.248599999978069e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930010,
+      "per_round_s": 9.147500009021314e-05,
+      "cpu_per_round_s": 9.052600000014621e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930011,
+      "per_round_s": 0.0001502610000443383,
+      "cpu_per_round_s": 0.0001504059999999363
+    },
+    {
+      "label": "No-report",
+      "seed": 930012,
+      "per_round_s": 8.87729999021758e-05,
+      "cpu_per_round_s": 8.77909999998927e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930013,
+      "per_round_s": 9.136099993156677e-05,
+      "cpu_per_round_s": 9.114099999996128e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930014,
+      "per_round_s": 8.52889999123363e-05,
+      "cpu_per_round_s": 8.461299999984462e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930015,
+      "per_round_s": 0.0001705850000917053,
+      "cpu_per_round_s": 0.00015618799999961297
+    },
+    {
+      "label": "No-report",
+      "seed": 930016,
+      "per_round_s": 0.00040564300002188247,
+      "cpu_per_round_s": 0.000405969000000006
+    },
+    {
+      "label": "No-report",
+      "seed": 930017,
+      "per_round_s": 0.00017095800001243333,
+      "cpu_per_round_s": 0.00017069100000011161
+    },
+    {
+      "label": "No-report",
+      "seed": 930018,
+      "per_round_s": 0.0001234329999988404,
+      "cpu_per_round_s": 0.00012279900000011779
+    },
+    {
+      "label": "No-report",
+      "seed": 930019,
+      "per_round_s": 8.211199997276708e-05,
+      "cpu_per_round_s": 8.181999999967715e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930020,
+      "per_round_s": 0.0002509570000484018,
+      "cpu_per_round_s": 0.00025126300000000157
+    },
+    {
+      "label": "No-report",
+      "seed": 930021,
+      "per_round_s": 0.0001026249999540596,
+      "cpu_per_round_s": 0.00010233999999975651
+    },
+    {
+      "label": "No-report",
+      "seed": 930022,
+      "per_round_s": 0.00021399900003871153,
+      "cpu_per_round_s": 0.0002138039999999286
+    },
+    {
+      "label": "No-report",
+      "seed": 930023,
+      "per_round_s": 0.0002552869999590257,
+      "cpu_per_round_s": 0.0002548570000002748
+    },
+    {
+      "label": "No-report",
+      "seed": 930024,
+      "per_round_s": 9.121099992626114e-05,
+      "cpu_per_round_s": 9.075899999988479e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930025,
+      "per_round_s": 0.00010281099991971132,
+      "cpu_per_round_s": 0.00010233800000003512
+    },
+    {
+      "label": "No-report",
+      "seed": 930026,
+      "per_round_s": 7.935000007819326e-05,
+      "cpu_per_round_s": 7.927300000032389e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930027,
+      "per_round_s": 0.0004735689999506576,
+      "cpu_per_round_s": 0.00047381499999987753
+    },
+    {
+      "label": "No-report",
+      "seed": 930028,
+      "per_round_s": 9.841799999321665e-05,
+      "cpu_per_round_s": 9.79700000001138e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930029,
+      "per_round_s": 7.840999990094133e-05,
+      "cpu_per_round_s": 7.8406999999725e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930030,
+      "per_round_s": 7.858899994062085e-05,
+      "cpu_per_round_s": 7.854000000007133e-05
+    },
+    {
+      "label": "No-report",
+      "seed": 930031,
+      "per_round_s": 8.63310000340789e-05,
+      "cpu_per_round_s": 8.557499999994889e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930000,
+      "per_round_s": 9.384099996623263e-05,
+      "cpu_per_round_s": 9.311400000022729e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930001,
+      "per_round_s": 7.718599999861908e-05,
+      "cpu_per_round_s": 7.706600000023656e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930002,
+      "per_round_s": 0.00010142099995391618,
+      "cpu_per_round_s": 0.0001001949999999141
+    },
+    {
+      "label": "OMA",
+      "seed": 930003,
+      "per_round_s": 0.00013943099997959507,
+      "cpu_per_round_s": 0.00013951099999998107
+    },
+    {
+      "label": "OMA",
+      "seed": 930004,
+      "per_round_s": 0.00023309499999868422,
+      "cpu_per_round_s": 0.00023365300000000033
+    },
+    {
+      "label": "OMA",
+      "seed": 930005,
+      "per_round_s": 9.880299990072672e-05,
+      "cpu_per_round_s": 9.80290000001105e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930006,
+      "per_round_s": 8.499599994138407e-05,
+      "cpu_per_round_s": 8.492500000034653e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930007,
+      "per_round_s": 7.911000000149215e-05,
+      "cpu_per_round_s": 7.890799999987763e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930008,
+      "per_round_s": 7.137699992654234e-05,
+      "cpu_per_round_s": 7.137500000009567e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930009,
+      "per_round_s": 0.00010867299999972602,
+      "cpu_per_round_s": 0.00010746400000005707
+    },
+    {
+      "label": "OMA",
+      "seed": 930010,
+      "per_round_s": 0.00022146800006339618,
+      "cpu_per_round_s": 0.00022110599999969338
+    },
+    {
+      "label": "OMA",
+      "seed": 930011,
+      "per_round_s": 9.037000006628659e-05,
+      "cpu_per_round_s": 8.974400000028027e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930012,
+      "per_round_s": 8.026200009680906e-05,
+      "cpu_per_round_s": 8.01320000003436e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930013,
+      "per_round_s": 0.00010003299996697024,
+      "cpu_per_round_s": 9.911300000009504e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930014,
+      "per_round_s": 7.884600006491382e-05,
+      "cpu_per_round_s": 7.879499999985384e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930015,
+      "per_round_s": 9.239400003480114e-05,
+      "cpu_per_round_s": 9.157999999986899e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930016,
+      "per_round_s": 8.744199999455304e-05,
+      "cpu_per_round_s": 8.724000000004395e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930017,
+      "per_round_s": 7.973899994340172e-05,
+      "cpu_per_round_s": 7.962599999977726e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930018,
+      "per_round_s": 7.376999997177336e-05,
+      "cpu_per_round_s": 7.377699999988607e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930019,
+      "per_round_s": 0.00010646299995187292,
+      "cpu_per_round_s": 0.00010660899999992424
+    },
+    {
+      "label": "OMA",
+      "seed": 930020,
+      "per_round_s": 8.232700008647953e-05,
+      "cpu_per_round_s": 8.229399999981624e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930021,
+      "per_round_s": 8.057200000166631e-05,
+      "cpu_per_round_s": 8.048199999999284e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930022,
+      "per_round_s": 7.590400002754905e-05,
+      "cpu_per_round_s": 7.58470000001843e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930023,
+      "per_round_s": 7.15649999847301e-05,
+      "cpu_per_round_s": 7.157500000021244e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930024,
+      "per_round_s": 8.653600002617168e-05,
+      "cpu_per_round_s": 8.648499999974746e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930025,
+      "per_round_s": 9.688000000096508e-05,
+      "cpu_per_round_s": 9.708199999991507e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930026,
+      "per_round_s": 9.860399995886837e-05,
+      "cpu_per_round_s": 9.789699999984691e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930027,
+      "per_round_s": 8.319599999140337e-05,
+      "cpu_per_round_s": 8.309799999972611e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930028,
+      "per_round_s": 8.145300000705902e-05,
+      "cpu_per_round_s": 8.135599999992138e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930029,
+      "per_round_s": 8.26849999384649e-05,
+      "cpu_per_round_s": 8.262000000014424e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930030,
+      "per_round_s": 7.721999998011597e-05,
+      "cpu_per_round_s": 7.709899999985836e-05
+    },
+    {
+      "label": "OMA",
+      "seed": 930031,
+      "per_round_s": 0.00018186099998729333,
+      "cpu_per_round_s": 0.0001822119999999039
+    }
+  ],
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "note": "Single sequential process, BLAS/OpenMP one thread, warmed build. Reserve chosen before evaluating held-out seeds; overruns count as deadline failures.",
+  "reservation_rule": "2 * development 95th-percentile per-round wall time, rounded upward to 0.05 ms, after 10 warm-up frames per method",
+  "warmup_seeds": [
+    929980,
+    929989
+  ],
+  "timing_seeds": [
+    230000,
+    230127
+  ],
+  "latency_seeds": [
+    240000,
+    240511
+  ],
+  "cpu_model": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "host_scope": "Shared virtualized x86-64 host; scheduling stalls retained; not a real-time operating system."
+}

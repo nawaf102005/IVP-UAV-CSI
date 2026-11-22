@@ -1,0 +1,5 @@
+{
+  "original_protocol_preserved": true,
+  "clarification": "States 110000--110031 reuse the existing value-audit seeds, which also occur in the original default service block. They are not a newly independent held-out sample. No values or decisions are changed.",
+  "tail": "KG17 retains its full Gaussian rule; root/grid/adaptive use [-6,6]. The excluded tail utility is bounded by 2*Phi(-6)*total utility under the assumed law."
+}

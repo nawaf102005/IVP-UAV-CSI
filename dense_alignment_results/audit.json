@@ -1,0 +1,8 @@
+{
+  "records_replayed": 21504,
+  "mismatches": 0,
+  "full_frontier_policy_replays": 16,
+  "terminal_frontier_checked_against_independent_python": true,
+  "observations_and_execution_recomputed": true,
+  "scope": "All terminal allocations and outcomes replayed; 16 complete zero-cost frontier-aware policy forecasts additionally recomputed. Not all internal forecasts are rerun."
+}

@@ -1,0 +1,45 @@
+{
+  "CDF25": {
+    "candidate_values": 256,
+    "mean_abs_error": 0.0021999741815126317,
+    "p95_abs_error": 0.007586211913018559,
+    "max_abs_error": 0.28574152074568815,
+    "mean_signed_error": -0.0021999741815105223,
+    "max_overestimate": 2.842170943040401e-14,
+    "mean_ms": 0.3837275898428416,
+    "median_ms": 0.3548340000634198,
+    "decision_agreement": 32,
+    "states": 32,
+    "integration_warnings": 0
+  },
+  "KG17": {
+    "candidate_values": 256,
+    "mean_abs_error": 0.17963685149238873,
+    "p95_abs_error": 1.0998684745320908,
+    "max_abs_error": 4.213948518292526,
+    "mean_signed_error": 0.01274351261683282,
+    "max_overestimate": 2.814195020752692,
+    "mean_ms": 0.9398752812468381,
+    "median_ms": 0.8526235000658744,
+    "decision_agreement": 29,
+    "states": 32,
+    "integration_warnings": 0
+  },
+  "Adaptive-GK": {
+    "candidate_values": 256,
+    "mean_abs_error": 7.908237368403626e-06,
+    "p95_abs_error": 3.2603309826129134e-05,
+    "max_abs_error": 0.0004596407000150293,
+    "mean_signed_error": -2.0539408004394133e-06,
+    "max_overestimate": 9.056459877854195e-05,
+    "mean_ms": 26.02968202343936,
+    "median_ms": 17.771852999999282,
+    "decision_agreement": 32,
+    "states": 32,
+    "integration_warnings": 0
+  },
+  "reference": {
+    "mean_ms": 16.868984074216886,
+    "tail_probability": 1.973175290075389e-09
+  }
+}

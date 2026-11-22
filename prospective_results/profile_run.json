@@ -1,0 +1,8 @@
+{
+  "cpu": 0,
+  "records": 2560,
+  "cells": 18,
+  "test_frames": 128,
+  "budget_ms": 1.0,
+  "operating_points": []
+}

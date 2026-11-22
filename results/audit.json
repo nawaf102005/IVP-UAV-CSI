@@ -1,0 +1,9 @@
+{
+  "decisions_checked": 11008,
+  "snapshots": 1312,
+  "constraint_or_replay_errors": [],
+  "maximum_reuse_residual_w": 5.551115123125783e-17,
+  "unit_test_exit_code": 0,
+  "tests": 7,
+  "scope": "Stored-action replay, power/airtime certificates, and independent mathematical reduction checks; not external validation."
+}

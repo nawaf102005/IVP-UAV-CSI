@@ -1,0 +1,23 @@
+{
+  "settings": [
+    {
+      "scenario": "munich-static",
+      "q": 5.890273457617274,
+      "q_original": 370.0998462514633,
+      "floor_db": 1.0,
+      "score_violations": 8,
+      "test": 256
+    },
+    {
+      "scenario": "munich-motion",
+      "q": 5.818574652456929,
+      "q_original": 5.818574652456929,
+      "floor_db": 1.0,
+      "score_violations": 6,
+      "test": 256
+    }
+  ],
+  "regularization": "Training covariance plus diagonal lift to report-noise variance; fixed before new test generation.",
+  "status": "Independent new positions, frozen old fit/calibration.",
+  "guarantee": "Marginal static exchangeability only; no new guarantee under motion or conditional on calibration."
+}

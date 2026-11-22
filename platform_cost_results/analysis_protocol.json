@@ -1,0 +1,7 @@
+{
+  "bootstrap": 1000,
+  "seed": 20261120,
+  "definition": "First zero of the piecewise-linear empirical mean gain, starting positive at alpha=0. All sign changes retained. Nonpositive origin is labelled no empirical positive entry, not a proven zero true threshold.",
+  "intervals": "Pointwise paired frame-bootstrap percentiles; do not cover interpolation error. Primary grid contrasts retain their original global Bonferroni family.",
+  "stage": "Post-run display transformation, recorded before calculating boundary summaries"
+}

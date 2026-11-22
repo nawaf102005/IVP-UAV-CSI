@@ -1,0 +1,6 @@
+{
+  "frame_method_terminal_records": 10240,
+  "paired_contrasts": 24,
+  "independent_frames_per_setting": 512,
+  "disjoint_seed_sets": true
+}

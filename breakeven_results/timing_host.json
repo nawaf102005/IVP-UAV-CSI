@@ -1,0 +1,20 @@
+{
+  "pinned_cpu": 0,
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "settings": {
+    "6": {
+      "fixed_half_percent": 0.25,
+      "mean_crossing": 0.14201684189097288
+    },
+    "8": {
+      "fixed_half_percent": 0.5,
+      "mean_crossing": 0.590377536923736
+    }
+  }
+}

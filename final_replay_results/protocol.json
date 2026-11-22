@@ -1,0 +1,44 @@
+{
+  "analysis": "Retrospective reanalysis of archived cohorts A, F and G",
+  "cost_grid": [
+    0.0,
+    0.005,
+    0.01,
+    0.015,
+    0.02,
+    0.025,
+    0.03,
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055,
+    0.06,
+    0.065,
+    0.07,
+    0.075,
+    0.08
+  ],
+  "durations_ms": [
+    20,
+    25,
+    32,
+    40,
+    50,
+    75,
+    100
+  ],
+  "simultaneous_family": 58,
+  "contrasts": "Three paired contrasts at every archived cost (C-IVP minus no-report, sensitivity minus no-report, C-IVP minus sensitivity) and seven direct charged-rate contrasts (sensitivity minus C-IVP). Two-sided Bonferroni paired t, 95% familywise; retrospective.",
+  "accounting": "F: no-report skips acquisition cost, F terminal gate shared, original 4096 final draws; G: causal method-specific reservations and historical overrun penalties; no host times are remeasured.",
+  "replay": "Same original seeds, stored choices and report values; verify all 2048 overlapping frontier decisions and all 192 reference actions. No independent replication.",
+  "root_units": "Python callbacks per subset/mode/innovation; count reuse and OMA callbacks, number of individual directional/cap eigenproblems, and separate preparations. Root time remains the original uninstrumented time.",
+  "inputs_sha256": {
+    "independent_numerical_results/values.csv": "984cc54f8fc4196bb96a86341cd34df2a48e59da2d2c94f506b1063f100a9d32",
+    "independent_numerical_results/decisions.json": "a14c5319cf1af4a92b6e63695e8b1ef030e86982afdc2cac471267462d1e778c",
+    "dense_alignment_results/records.jsonl.gz": "fecaf4152aff7872d7dc7a289fa6f65218f3a566c2605f3e166022c42a91dc1e",
+    "dense_alignment_results/protocol.json": "22e745262705f8e1dc8a4207ccc4f31705377bb2147b19f5ffbc1bbaea43ca61",
+    "round5_results/latency_records.jsonl": "52a2e5abb0e06526e3b7a2c82d38a7d661be0c422b040c03d7784cc8cb9a33c0",
+    "round5_results/protocol.json": "9879438bcf26acca1375f9f167bb267c64c2235ee7428b444582486f89255433"
+  }
+}

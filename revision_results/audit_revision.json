@@ -1,0 +1,18 @@
+{
+  "decisions_checked": 112800,
+  "counts": {
+    "chance": 640,
+    "conformal": 3072,
+    "frontier": 128,
+    "hybrid": 128,
+    "latency": 10752,
+    "ray": 12288,
+    "revision": 77952,
+    "screening": 5120,
+    "timing": 2720
+  },
+  "errors": [],
+  "maximum_reuse_residual_w": 6.106226635438361e-16,
+  "elapsed_s": 90.00494646100015,
+  "scope": "Stored observations/actions, physical delivery, time/power bounds, applicable posterior certificates and finite-family acceptance logs. Does not prove propagation realism or novelty."
+}

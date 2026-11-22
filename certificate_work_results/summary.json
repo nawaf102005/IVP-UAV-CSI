@@ -1,0 +1,83 @@
+{
+  "CDF25": {
+    "certificate_tests": {
+      "mean": 806.6848958333334,
+      "median": 806.0,
+      "p95": 862.0,
+      "maximum": 870
+    },
+    "directional_linear_solves": {
+      "mean": 734.3684895833334,
+      "median": 750.0,
+      "p95": 830.0,
+      "maximum": 878
+    },
+    "action_preparations": {
+      "mean": 15.0,
+      "median": 15.0,
+      "p95": 15.0,
+      "maximum": 15
+    },
+    "oma_direction_tests": {
+      "mean": 755.7223307291666,
+      "median": 749.0,
+      "p95": 846.0,
+      "maximum": 862
+    },
+    "max_q_change": 0.0
+  },
+  "KG17": {
+    "certificate_tests": {
+      "mean": 84.13118489583333,
+      "median": 82.0,
+      "p95": 148.0,
+      "maximum": 207
+    },
+    "directional_linear_solves": {
+      "mean": 77.001953125,
+      "median": 68.0,
+      "p95": 136.0,
+      "maximum": 204
+    },
+    "action_preparations": {
+      "mean": 255.0,
+      "median": 255.0,
+      "p95": 255.0,
+      "maximum": 255
+    },
+    "oma_direction_tests": {
+      "mean": 51.380208333333336,
+      "median": 42.0,
+      "p95": 118.0,
+      "maximum": 178
+    },
+    "max_q_change": 0.0
+  },
+  "Adaptive-GK": {
+    "certificate_tests": {
+      "mean": 2687.9156901041665,
+      "median": 1489.5,
+      "p95": 9261.449999999997,
+      "maximum": 19850
+    },
+    "directional_linear_solves": {
+      "mean": 2279.7897135416665,
+      "median": 1365.5,
+      "p95": 7083.349999999999,
+      "maximum": 21728
+    },
+    "action_preparations": {
+      "mean": 7057.96875,
+      "median": 5040.0,
+      "p95": 19530.0,
+      "maximum": 35910
+    },
+    "oma_direction_tests": {
+      "mean": 1765.4931640625,
+      "median": 776.5,
+      "p95": 6675.349999999999,
+      "maximum": 18178
+    },
+    "max_q_change": 0.0
+  }
+}

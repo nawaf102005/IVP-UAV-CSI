@@ -1,0 +1,19 @@
+{
+  "count": 128,
+  "seed_start": 190000,
+  "candidate_quantile_budgets": [
+    0.01,
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.8
+  ],
+  "validation": 4096,
+  "evaluation": 16384,
+  "family_size": 210,
+  "confidence": 0.95,
+  "elapsed_s": 2.711507904999962,
+  "limitation": "Finite candidate family with simultaneous binomial validation; not an exact chance-constrained optimum."
+}

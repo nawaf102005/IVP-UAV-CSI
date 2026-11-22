@@ -1,0 +1,13 @@
+{
+  "evaluations": 298.3121744791667,
+  "reuse_evaluations": 162.76920572916666,
+  "oma_evaluations": 135.54296875,
+  "individual_eigenproblems": 930.8828125,
+  "linear_solve_calls": 0.0,
+  "reuse_preparations": 15.0,
+  "oma_preparations": 11.0,
+  "candidates": 3072,
+  "states": 192,
+  "maximum_absolute_q_change": 1.5916157281026244e-12,
+  "decision_agreements": 192
+}

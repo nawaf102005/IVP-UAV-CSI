@@ -1,0 +1,401 @@
+{
+  "cell": {
+    "id": "map_5_3",
+    "kind": "map",
+    "speed": 40.0,
+    "dcor": 10.0,
+    "rho": 0.9231163463866358,
+    "report_fraction": 0.05,
+    "config": {
+      "n": 4,
+      "frame_s": 0.02,
+      "bandwidth_hz": 1000000.0,
+      "ul_fraction": 0.8,
+      "probe_s": 0.001,
+      "max_probes": 4,
+      "ul_bits": 30000.0,
+      "dl_bits": 1800.0,
+      "ul_power_w": 0.2,
+      "dl_power_w": 1.0,
+      "noise_figure_db": 7.0,
+      "shadow_db": 3.0,
+      "measurement_db": 1.0,
+      "reciprocity": 0.9,
+      "spacing_m": 200.0,
+      "altitude_m": 120.0,
+      "kappa": 4.0,
+      "pathloss_exponent": 2.7,
+      "excess_loss_db": 15.0,
+      "outage": 0.05,
+      "z_limit": 6.0,
+      "endpoint_tol": 2e-05,
+      "gain_tol_kbit": 0.002
+    },
+    "alphas": [
+      0.0,
+      0.001,
+      0.0025,
+      0.005,
+      0.01,
+      0.02,
+      0.04,
+      0.08,
+      0.16,
+      0.4
+    ]
+  },
+  "frames": 128,
+  "records": 2688,
+  "costs": [
+    {
+      "alpha": 0.0,
+      "methods": {
+        "NR": {
+          "completed": 99.45896887691805,
+          "outages": 3,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 105.02239357282846,
+          "outages": 2,
+          "mean_reports": 0.8828125
+        },
+        "Predictive-Margin": {
+          "completed": 103.51427105900291,
+          "outages": 3,
+          "mean_reports": 0.6640625
+        }
+      },
+      "IVP-NR": {
+        "mean": 5.563424695910424,
+        "low": 1.3551297342493482,
+        "high": 9.771719657571499
+      },
+      "Margin-NR": {
+        "mean": 4.055302182084866,
+        "low": 0.34851906507584207,
+        "high": 7.762085299093889
+      },
+      "IVP-Margin": {
+        "mean": 1.5081225138255578,
+        "low": -0.8273125763585041,
+        "high": 3.8435576040096198
+      }
+    },
+    {
+      "alpha": 0.001,
+      "methods": {
+        "NR": {
+          "completed": 99.45896887691805,
+          "outages": 3,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 104.78937056557365,
+          "outages": 2,
+          "mean_reports": 0.875
+        },
+        "Predictive-Margin": {
+          "completed": 103.29927063013368,
+          "outages": 3,
+          "mean_reports": 0.6640625
+        }
+      },
+      "IVP-NR": {
+        "mean": 5.330401688655618,
+        "low": 1.1799382107868528,
+        "high": 9.480865166524383
+      },
+      "Margin-NR": {
+        "mean": 3.840301753215627,
+        "low": 0.21516577899971212,
+        "high": 7.465437727431542
+      },
+      "IVP-Margin": {
+        "mean": 1.4900999354399915,
+        "low": -0.8482376114594361,
+        "high": 3.828437482339419
+      }
+    },
+    {
+      "alpha": 0.0025,
+      "methods": {
+        "NR": {
+          "completed": 99.45896887691805,
+          "outages": 3,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 104.56774978426307,
+          "outages": 2,
+          "mean_reports": 0.84375
+        },
+        "Predictive-Margin": {
+          "completed": 102.62899409644723,
+          "outages": 3,
+          "mean_reports": 0.640625
+        }
+      },
+      "IVP-NR": {
+        "mean": 5.10878090734502,
+        "low": 1.0206405174321054,
+        "high": 9.196921297257934
+      },
+      "Margin-NR": {
+        "mean": 3.1700252195291947,
+        "low": -0.15611304439000584,
+        "high": 6.496163483448395
+      },
+      "IVP-Margin": {
+        "mean": 1.9387556878158247,
+        "low": -0.7315278973475037,
+        "high": 4.609039272979153
+      }
+    },
+    {
+      "alpha": 0.005,
+      "methods": {
+        "NR": {
+          "completed": 99.45896887691805,
+          "outages": 3,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 103.50430101928436,
+          "outages": 3,
+          "mean_reports": 0.8125
+        },
+        "Predictive-Margin": {
+          "completed": 102.52432333891173,
+          "outages": 3,
+          "mean_reports": 0.6328125
+        }
+      },
+      "IVP-NR": {
+        "mean": 4.045332142366313,
+        "low": 0.3487575739966515,
+        "high": 7.741906710735973
+      },
+      "Margin-NR": {
+        "mean": 3.065354461993679,
+        "low": -0.26872144544044696,
+        "high": 6.3994303694278045
+      },
+      "IVP-Margin": {
+        "mean": 0.9799776803726329,
+        "low": -1.4288208688071218,
+        "high": 3.3887762295523873
+      }
+    },
+    {
+      "alpha": 0.01,
+      "methods": {
+        "NR": {
+          "completed": 99.45896887691805,
+          "outages": 3,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 102.25869041334177,
+          "outages": 3,
+          "mean_reports": 0.7734375
+        },
+        "Predictive-Margin": {
+          "completed": 101.76609991306346,
+          "outages": 3,
+          "mean_reports": 0.6015625
+        }
+      },
+      "IVP-NR": {
+        "mean": 2.7997215364237245,
+        "low": -0.409818075373662,
+        "high": 6.0092611482211105
+      },
+      "Margin-NR": {
+        "mean": 2.3071310361454045,
+        "low": -0.6960077596583489,
+        "high": 5.310269831949158
+      },
+      "IVP-Margin": {
+        "mean": 0.4925905002783201,
+        "low": -1.508930441790313,
+        "high": 2.494111442346953
+      }
+    },
+    {
+      "alpha": 0.02,
+      "methods": {
+        "NR": {
+          "completed": 99.45896887691805,
+          "outages": 3,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 99.89880499335405,
+          "outages": 4,
+          "mean_reports": 0.796875
+        },
+        "Predictive-Margin": {
+          "completed": 100.00860986592934,
+          "outages": 4,
+          "mean_reports": 0.578125
+        }
+      },
+      "IVP-NR": {
+        "mean": 0.43983611643600573,
+        "low": -1.5148889025509509,
+        "high": 2.394561135422962
+      },
+      "Margin-NR": {
+        "mean": 0.5496409890113064,
+        "low": -1.6471302521796845,
+        "high": 2.746412230202297
+      },
+      "IVP-Margin": {
+        "mean": -0.1098048725753007,
+        "low": -1.8343949761292977,
+        "high": 1.6147852309786963
+      }
+    },
+    {
+      "alpha": 0.04,
+      "methods": {
+        "NR": {
+          "completed": 99.45896887691805,
+          "outages": 3,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 98.7416397847702,
+          "outages": 2,
+          "mean_reports": 0.5078125
+        },
+        "Predictive-Margin": {
+          "completed": 98.02393957899454,
+          "outages": 2,
+          "mean_reports": 0.375
+        }
+      },
+      "IVP-NR": {
+        "mean": -0.7173290921478515,
+        "low": -3.0800749383902355,
+        "high": 1.6454167540945326
+      },
+      "Margin-NR": {
+        "mean": -1.4350292979235002,
+        "low": -4.2986290962267315,
+        "high": 1.4285705003797307
+      },
+      "IVP-Margin": {
+        "mean": 0.7177002057756487,
+        "low": -0.9394629177006886,
+        "high": 2.374863329251986
+      }
+    },
+    {
+      "alpha": 0.08,
+      "methods": {
+        "NR": {
+          "completed": 99.45896887691805,
+          "outages": 3,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 95.1698180494053,
+          "outages": 1,
+          "mean_reports": 0.1484375
+        },
+        "Predictive-Margin": {
+          "completed": 95.1698180494053,
+          "outages": 1,
+          "mean_reports": 0.109375
+        }
+      },
+      "IVP-NR": {
+        "mean": -4.289150827512747,
+        "low": -8.374587641091095,
+        "high": -0.20371401393439825
+      },
+      "Margin-NR": {
+        "mean": -4.289150827512747,
+        "low": -8.374587641091095,
+        "high": -0.20371401393439825
+      },
+      "IVP-Margin": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    {
+      "alpha": 0.16,
+      "methods": {
+        "NR": {
+          "completed": 99.45896887691805,
+          "outages": 3,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 90.06724201032672,
+          "outages": 1,
+          "mean_reports": 0.0
+        },
+        "Predictive-Margin": {
+          "completed": 90.06724201032672,
+          "outages": 1,
+          "mean_reports": 0.0
+        }
+      },
+      "IVP-NR": {
+        "mean": -9.391726866591316,
+        "low": -14.647987249967784,
+        "high": -4.1354664832148496
+      },
+      "Margin-NR": {
+        "mean": -9.391726866591316,
+        "low": -14.647987249967784,
+        "high": -4.1354664832148496
+      },
+      "IVP-Margin": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    {
+      "alpha": 0.4,
+      "methods": {
+        "NR": {
+          "completed": 99.45896887691805,
+          "outages": 3,
+          "mean_reports": 0.0
+        },
+        "Predictive-IVP": {
+          "completed": 70.99385012312513,
+          "outages": 2,
+          "mean_reports": 0.0
+        },
+        "Predictive-Margin": {
+          "completed": 70.99385012312513,
+          "outages": 2,
+          "mean_reports": 0.0
+        }
+      },
+      "IVP-NR": {
+        "mean": -28.465118753792936,
+        "low": -33.94772635094804,
+        "high": -22.982511156637838
+      },
+      "Margin-NR": {
+        "mean": -28.465118753792936,
+        "low": -33.94772635094804,
+        "high": -22.982511156637838
+      },
+      "IVP-Margin": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    }
+  ]
+}

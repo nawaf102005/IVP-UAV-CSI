@@ -1,0 +1,17 @@
+{
+  "decisions_checked": 8096,
+  "counts": {
+    "branch": 480,
+    "bounded_policy": 192,
+    "temporal": 4608,
+    "endpoint": 1280,
+    "catalogue": 512,
+    "finite_blocklength": 1024
+  },
+  "candidate_values_replayed": 4096,
+  "vector_states": 32,
+  "vector_point_checks": 512,
+  "endpoint_score_noise_events": 472,
+  "active_endpoint_score_noise_events": 472,
+  "errors": []
+}

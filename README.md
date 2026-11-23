@@ -25,22 +25,6 @@ For additional runs, inspect `python run_all.py --help`. Simulations may take co
 - `figures/`, `figures_r5/` — retained scientific PDFs and figure metadata; redundant raster/vector exports from `figures_r5` were omitted.
 - `run_all.py`, `requirements*.txt`, `SHA256SUMS.json` — execution entrypoint, dependencies and per-file manifest.
 
-## GitHub setup
-
-The archived `revision_results/revision_records.jsonl` is larger than GitHub's 50 MB warning threshold, so `.gitattributes` enables **Git LFS** for it. Install Git LFS and execute `git lfs install` **before** `git add .` and pushing to GitHub. GitHub's web upload is not recommended for this package. All other kept files are below 50 MB. Git LFS use may depend on your account's storage/bandwidth quota.
-
-```bash
-git init
-git lfs install
-git add .
-git commit -m "Release IVP reproducibility package"
-git branch -M main
-git remote add origin https://github.com/USERNAME/REPOSITORY.git
-git push -u origin main
-```
-
-Replace `USERNAME/REPOSITORY` with your actual repository. Only publish results/data you are authorized to share. No licensing claim is made here; select a license separately if desired.
-
 ## Integrity and limits
 
 `SHA256SUMS.json` contains SHA-256 hashes of every packaged scientific input/file (excluding the manifest itself and this README). The separately excluded editorial/provenance history is not required for the archived `--mode verify` path; however, experiment reruns, optional dependencies and full end-to-end reproducibility have not been certified as part of this repackaging. In particular, this package does not independently verify that every reported journal result matches the latest manuscript revision.
